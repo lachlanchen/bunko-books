@@ -10,7 +10,7 @@
 
 Kho này lưu 150 ấn bản hoàn chỉnh của tác phẩm kinh điển thuộc phạm vi công cộng dưới dạng các chương JSON gọn nhẹ, kèm cách đọc ruby và bìa minh họa đã kiểm tra không có chữ. Bunko chỉ tải các chương được mở rồi lưu để đọc ngoại tuyến. Ứng dụng ở kho [Bunko](https://github.com/lachlanchen/Bunko); thêm sách đã duyệt ở đây không cần tạo lại ứng dụng.
 
-[![Bìa minh họa không chữ](../assets/classics-clean-2026-09-23.png)](../assets/classics-clean-2026-09-23.png)
+<p align="center"><a href="../assets/classics-clean-2026-09-23.png"><img src="../assets/classics-clean-2026-09-23.png" alt="Bìa minh họa không chữ" width="300"></a></p>
 
 ## Trong thư viện
 

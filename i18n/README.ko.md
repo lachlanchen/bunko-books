@@ -10,7 +10,7 @@
 
 이 저장소에는 공개 도메인 고전의 완결 판본 150종이 작은 JSON 장으로 들어 있습니다. 글자 위 발음과 문자 없는 것으로 검토한 표지도 함께 제공합니다. Bunko는 독자가 여는 장만 내려받아 오프라인에 저장합니다. 앱 코드는 [Bunko](https://github.com/lachlanchen/Bunko)에 있고, 승인된 책을 추가할 때 앱을 다시 빌드할 필요가 없습니다.
 
-[![문자 없는 표지 그림](../assets/classics-clean-2026-09-23.png)](../assets/classics-clean-2026-09-23.png)
+<p align="center"><a href="../assets/classics-clean-2026-09-23.png"><img src="../assets/classics-clean-2026-09-23.png" alt="문자 없는 표지 그림" width="300"></a></p>
 
 ## 도서관 구성
 

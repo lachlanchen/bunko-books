@@ -10,7 +10,7 @@
 
 Este repositorio alberga 150 ediciones completas de clásicos de dominio público en capítulos JSON compactos, con lecturas ruby y cubiertas ilustradas revisadas para que no contengan texto. Bunko descarga solo los capítulos abiertos y los guarda sin conexión. La aplicación está en [Bunko](https://github.com/lachlanchen/Bunko); añadir aquí un libro aprobado no exige reconstruirla.
 
-[![Cubierta ilustrada sin texto](../assets/classics-clean-2026-09-23.png)](../assets/classics-clean-2026-09-23.png)
+<p align="center"><a href="../assets/classics-clean-2026-09-23.png"><img src="../assets/classics-clean-2026-09-23.png" alt="Cubierta ilustrada sin texto" width="300"></a></p>
 
 ## Dentro de la biblioteca
 

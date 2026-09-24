@@ -10,7 +10,7 @@
 
 يضم هذا المستودع 150 طبعة مكتملة من كلاسيكيات الملك العام في فصول JSON مدمجة، مع قراءات فوق الحروف وأغلفة مصورة راجعنا خلوها من النص. يحمّل Bunko الفصول المفتوحة فقط ويخزنها للقراءة دون اتصال. يوجد التطبيق في [Bunko](https://github.com/lachlanchen/Bunko)، ولا تتطلب إضافة كتاب معتمد هنا بناء تطبيق جديد.
 
-[![غلاف مصور بلا نص](../assets/classics-clean-2026-09-23.png)](../assets/classics-clean-2026-09-23.png)
+<p align="center"><a href="../assets/classics-clean-2026-09-23.png"><img src="../assets/classics-clean-2026-09-23.png" alt="غلاف مصور بلا نص" width="300"></a></p>
 
 ## داخل المكتبة
 

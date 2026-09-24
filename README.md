@@ -10,7 +10,7 @@
 
 This repository hosts 150 complete editions of public-domain classics as compact JSON chapters with ruby readings and reviewed text-free covers. Bunko downloads only the chapters a reader opens and caches them offline. The app lives in [Bunko](https://github.com/lachlanchen/Bunko); adding an approved book here does not require a new app build.
 
-[![Text-free illustrated cover](assets/classics-clean-2026-09-23.png)](assets/classics-clean-2026-09-23.png)
+<p align="center"><a href="assets/classics-clean-2026-09-23.png"><img src="assets/classics-clean-2026-09-23.png" alt="Text-free illustrated cover" width="300"></a></p>
 
 ## Inside the library
 

@@ -10,7 +10,7 @@
 
 Ce dépôt héberge 150 éditions complètes de classiques du domaine public sous forme de petits chapitres JSON, avec lectures ruby et couvertures illustrées vérifiées sans texte. Bunko ne télécharge que les chapitres ouverts et les garde hors ligne. L’application se trouve dans [Bunko](https://github.com/lachlanchen/Bunko) ; ajouter ici un livre approuvé ne demande pas de nouvelle version.
 
-[![Couverture illustrée sans texte](../assets/classics-clean-2026-09-23.png)](../assets/classics-clean-2026-09-23.png)
+<p align="center"><a href="../assets/classics-clean-2026-09-23.png"><img src="../assets/classics-clean-2026-09-23.png" alt="Couverture illustrée sans texte" width="300"></a></p>
 
 ## Dans la bibliothèque
 

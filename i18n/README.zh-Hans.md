@@ -10,7 +10,7 @@
 
 本仓库存放 150 种完整的公版古典版本，按小型 JSON 章节分发，包含注音与经过检查的无文字插画封面。Bunko 只下载读者打开的章节，并将其缓存供离线阅读。应用代码在 [Bunko](https://github.com/lachlanchen/Bunko)；在此添加审核通过的书籍，不必重新构建应用。
 
-[![无文字插画封面](../assets/classics-clean-2026-09-23.png)](../assets/classics-clean-2026-09-23.png)
+<p align="center"><a href="../assets/classics-clean-2026-09-23.png"><img src="../assets/classics-clean-2026-09-23.png" alt="无文字插画封面" width="300"></a></p>
 
 ## 书库内容
 

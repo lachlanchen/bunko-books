@@ -10,7 +10,7 @@
 
 このリポジトリには、パブリックドメインの古典 150 版を、ルビ情報付きの小さな JSON 章と、文字のないことを確認した表紙画像として収めています。Bunko は開いた章だけを取得し、オフライン用に保存します。アプリ本体は [Bunko](https://github.com/lachlanchen/Bunko) にあり、承認済みの本を追加してもアプリの再ビルドは不要です。
 
-[![文字のない表紙イラスト](../assets/classics-clean-2026-09-23.png)](../assets/classics-clean-2026-09-23.png)
+<p align="center"><a href="../assets/classics-clean-2026-09-23.png"><img src="../assets/classics-clean-2026-09-23.png" alt="文字のない表紙イラスト" width="300"></a></p>
 
 ## 書庫の内容
 
