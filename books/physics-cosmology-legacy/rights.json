@@ -1,0 +1,21 @@
+{
+  "id": "physics-cosmology-legacy",
+  "status": "ship",
+  "edition": "original-only",
+  "langs": [
+    "en"
+  ],
+  "basis": "Independent edited AI-assisted companion notes by the owner, adapted from public lectures; not a transcript, Susskind manuscript or endorsed edition. Source repo GPL-3.0.",
+  "references": [
+    "https://github.com/lachlanchen/leonardsusskind/tree/main/generated_course_notes/core/cosmology/2009_winter_legacy_cosmology"
+  ],
+  "checked": "2026-09-25",
+  "cover": {
+    "textFree": false,
+    "originalDesign": true,
+    "basis": "Author project cover artwork, adapted from the published source edition.",
+    "sourceAsset": "leonardsusskind/figs/readme-covers/cosmology_legacy.png"
+  },
+  "license": "GPL-3.0-only",
+  "licenseFile": "licenses/GPL-3.0.txt"
+}

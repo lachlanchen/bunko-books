@@ -60,8 +60,8 @@ Bunko Books는 LazyingArt의 공개 도서관입니다. 후원은 목록과 읽�
 누락된 본문, 메타데이터나 표지 오류, 권리 문제는 [책 이슈](https://github.com/lachlanchen/bunko-books/issues/new)로 알려 주세요. 검토 기록은 전 세계 법적 보증이 아닙니다.
 ## Bunko에서 읽기
 
-서재에는 퍼블릭 도메인 고전 150권과 저자가 공개를 허락한 도서 12권이 있습니다. 물리학 해설, 학습 안내서, 금융 도서, 다국어 여행 안내서 세 권을 포함합니다. 한 언어 또는 여러 언어로 읽을 수 있으며 수식과 그림도 모바일에서 표시됩니다.
+서재에는 퍼블릭 도메인 고전 150권과 저자가 공개를 허락한 도서 33권이 있습니다. 물리학 해설, 학습 안내서, 금융 도서, 다국어 여행 안내서 세 권을 포함합니다. 한 언어 또는 여러 언어로 읽을 수 있으며 수식과 그림도 모바일에서 표시됩니다.
 
 [Apple App Store](https://apps.apple.com/app/id6815137919) · [Google Play · 출시 대기 중](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)
 
-독립적인 물리학 해설서 여섯 권에는 [GPL-3.0](../licenses/GPL-3.0.txt)이 계속 적용되며, 각 권리 기록에서 편집 가능한 원본을 찾을 수 있습니다.
+독립적인 물리학 해설서 열아홉 권에는 [GPL-3.0](../licenses/GPL-3.0.txt)이 계속 적용되며, 각 권리 기록에서 편집 가능한 원본을 찾을 수 있습니다.

@@ -1,0 +1,19 @@
+{
+  "id": "earn-build-a-business",
+  "status": "ship",
+  "edition": "original-only",
+  "langs": [
+    "en"
+  ],
+  "basis": "Owner-curated thematic synthesis from the interview corpus; interview claims remain attributed source claims, not independently verified financial advice.",
+  "references": [
+    "https://github.com/lachlanchen/LazyEarn/tree/main/generated_course_notes/lazyearn/school-of-hard-knocks/entrepreneurship/dynamic_book"
+  ],
+  "checked": "2026-09-25",
+  "cover": {
+    "textFree": false,
+    "originalDesign": true,
+    "basis": "Author project cover artwork, adapted from the published source edition.",
+    "sourceAsset": "LazyEarn/docs/publications/how-you-build-a-business/cover-art.png"
+  }
+}

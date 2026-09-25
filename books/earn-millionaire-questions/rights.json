@@ -1,0 +1,19 @@
+{
+  "id": "earn-millionaire-questions",
+  "status": "ship",
+  "edition": "original-only",
+  "langs": [
+    "en"
+  ],
+  "basis": "Owner-edited companion notes based on School of Hard Knocks interviews; not a transcript or an endorsed edition. Interview claims are source claims, not independently verified financial advice.",
+  "references": [
+    "https://github.com/lachlanchen/LazyEarn/tree/main/generated_course_notes/lazyearn/school-of-hard-knocks/10-questions-with-a-millionaire"
+  ],
+  "checked": "2026-09-25",
+  "cover": {
+    "textFree": false,
+    "originalDesign": true,
+    "basis": "Author project cover artwork, adapted from the published source edition.",
+    "sourceAsset": "LazyEarn/docs/publications/10-questions-with-a-millionaire/cover-page-1.png"
+  }
+}

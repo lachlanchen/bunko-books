@@ -1,0 +1,21 @@
+{
+  "id": "physics-particle-physics-1",
+  "status": "ship",
+  "edition": "original-only",
+  "langs": [
+    "en"
+  ],
+  "basis": "Independent edited AI-assisted companion notes by the owner, adapted from public lectures; not a transcript, Susskind manuscript or endorsed edition. Source repo GPL-3.0.",
+  "references": [
+    "https://github.com/lachlanchen/leonardsusskind/tree/main/generated_course_notes/supplementary/particle_physics_1_basic_concepts/2009_fall"
+  ],
+  "checked": "2026-09-25",
+  "cover": {
+    "textFree": false,
+    "originalDesign": true,
+    "basis": "Author project cover artwork, adapted from the published source edition.",
+    "sourceAsset": "leonardsusskind/figs/readme-covers/particle_physics_1_basic_concepts.png"
+  },
+  "license": "GPL-3.0-only",
+  "licenseFile": "licenses/GPL-3.0.txt"
+}

@@ -60,8 +60,8 @@ Wenn du Bunko Books für Forschung nutzt, zitiere dieses Repository. GitHub lies
 Fehlenden Text, falsche Metadaten, Cover-Probleme oder Rechtebedenken kannst du als [Buch-Issue](https://github.com/lachlanchen/bunko-books/issues/new) melden. Die dokumentierte Prüfung ist keine weltweite Rechtsbescheinigung.
 ## Bunko lesen
 
-Die Bibliothek enthält jetzt 150 gemeinfreie Klassiker und 12 vom Autor freigegebene Ausgaben: Physik-Begleittexte, einen Lernführer, Finanzbücher und drei mehrsprachige Reiseführer. Bücher können eine oder mehrere Sprachen haben; Formeln und Abbildungen bleiben im mobilen Reader erhalten.
+Die Bibliothek enthält jetzt 150 gemeinfreie Klassiker und 33 vom Autor freigegebene Ausgaben: Physik-Begleittexte, einen Lernführer, Finanzbücher und drei mehrsprachige Reiseführer. Bücher können eine oder mehrere Sprachen haben; Formeln und Abbildungen bleiben im mobilen Reader erhalten.
 
 [Apple App Store](https://apps.apple.com/app/id6815137919) · [Google Play · Veröffentlichung ausstehend](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)
 
-Für die sechs unabhängigen Physik-Begleitbände gilt weiterhin [GPL-3.0](../licenses/GPL-3.0.txt); ihre Rechtevermerke verlinken die bearbeitbaren Quellen.
+Für die neunzehn unabhängigen Physik-Begleitbände gilt weiterhin [GPL-3.0](../licenses/GPL-3.0.txt); ihre Rechtevermerke verlinken die bearbeitbaren Quellen.

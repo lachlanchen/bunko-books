@@ -8,7 +8,7 @@
 
 [![Reader](https://img.shields.io/badge/Open-Bunko-303F68?style=for-the-badge)](https://lachlan.lazying.art/Bunko/) [![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/lachlanchen)
 
-This repository hosts 150 complete editions of public-domain classics as compact JSON chapters with ruby readings and reviewed text-free covers. Bunko downloads only the chapters a reader opens and caches them offline. The app lives in [Bunko](https://github.com/lachlanchen/Bunko); adding an approved book here does not require a new app build.
+This repository hosts 150 public-domain classics and 33 owner editions as compact JSON chapters with ruby readings where available and reviewed covers. Bunko downloads only the chapters a reader opens and caches them offline. The app lives in [Bunko](https://github.com/lachlanchen/Bunko); adding an approved book here does not require a new app build.
 
 <p align="center"><a href="assets/classics-clean-2026-09-23.png"><img src="assets/classics-clean-2026-09-23.png" alt="Text-free illustrated cover" width="300"></a></p>
 
@@ -60,8 +60,8 @@ If you use Bunko Books in research, cite this repository. GitHub reads [CITATION
 To report missing text, a metadata error, a cover problem or a rights concern, [open a book issue](https://github.com/lachlanchen/bunko-books/issues/new). The catalogue audit is a documented review, not a worldwide legal certification.
 ## Read Bunko
 
-The library now includes 150 public-domain classics and 12 rights-cleared owner editions: physics companion notes, a learning guide, finance books, and three multilingual travel guides. Each book may offer one or several languages. Equations and figures are kept in the mobile reader.
+The library now includes 150 public-domain classics and 33 rights-cleared owner editions: 19 physics companion books (including all nine supplementary courses), two learning books, nine finance books, and three multilingual travel guides. Each book may offer one or several languages. Equations and figures are kept in the mobile reader.
 
 [Apple App Store](https://apps.apple.com/app/id6815137919) · [Google Play · publication pending](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)
 
-The six independent physics companion editions retain [GPL-3.0](licenses/GPL-3.0.txt) terms and link to their editable source in each rights record.
+The nineteen independent physics companion editions retain [GPL-3.0](licenses/GPL-3.0.txt) terms and link to their editable source in each rights record.

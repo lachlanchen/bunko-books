@@ -60,8 +60,8 @@ Bunko Books 是 LazyingArt 的开放书库。你的支持有助于维护书目�
 如发现正文缺漏、元数据错误、封面问题或版权疑虑，请[提交书籍 issue](https://github.com/lachlanchen/bunko-books/issues/new)。审核记录并非全球通用的法律认证。
 ## 在 Bunko 阅读
 
-书库现有 150 部公共领域经典和 12 部经作者授权的作品：物理学伴读笔记、学习指南、财经书籍，以及三本多语旅行指南。每本书可有一种或多种语言，公式和插图也能在手机上阅读。
+书库现有 150 部公共领域经典和 33 部经作者授权的作品：物理学伴读笔记、学习指南、财经书籍，以及三本多语旅行指南。每本书可有一种或多种语言，公式和插图也能在手机上阅读。
 
 [Apple App Store](https://apps.apple.com/app/id6815137919) · [Google Play · 待上架](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)
 
-六部独立的物理学伴读笔记仍遵循 [GPL-3.0](../licenses/GPL-3.0.txt)；各书权利记录链接到可编辑的源文件。
+十九部独立的物理学伴读笔记仍遵循 [GPL-3.0](../licenses/GPL-3.0.txt)；各书权利记录链接到可编辑的源文件。

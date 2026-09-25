@@ -1,0 +1,19 @@
+{
+  "id": "learning-justice-sandel",
+  "status": "ship",
+  "edition": "original-only",
+  "langs": [
+    "en"
+  ],
+  "basis": "Owner-edited course companion notes based on the published Justice lectures; not an original Sandel book or endorsed edition.",
+  "references": [
+    "https://github.com/lachlanchen/LazyLearn/tree/main/generated_course_notes/lazylearn/justice-with-michael-sandel"
+  ],
+  "checked": "2026-09-25",
+  "cover": {
+    "textFree": false,
+    "originalDesign": true,
+    "basis": "Author project cover artwork, adapted from the published source edition.",
+    "sourceAsset": "LazyLearn/docs/justice-with-michael-sandel-cover.png"
+  }
+}

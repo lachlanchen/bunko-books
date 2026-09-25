@@ -1,0 +1,19 @@
+{
+  "id": "earn-entrepreneurship",
+  "status": "ship",
+  "edition": "original-only",
+  "langs": [
+    "en"
+  ],
+  "basis": "Owner-edited companion notes based on School of Hard Knocks interviews; not a transcript or an endorsed edition. Interview claims are source claims, not independently verified financial advice.",
+  "references": [
+    "https://github.com/lachlanchen/LazyEarn/tree/main/generated_course_notes/lazyearn/school-of-hard-knocks/entrepreneurship"
+  ],
+  "checked": "2026-09-25",
+  "cover": {
+    "textFree": false,
+    "originalDesign": true,
+    "basis": "Author project cover artwork, adapted from the published source edition.",
+    "sourceAsset": "LazyEarn/docs/publications/entrepreneurship/cover-page-1.png"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "physics-quantum-mechanics-stanford",
+  "status": "ship",
+  "edition": "original-only",
+  "langs": [
+    "en"
+  ],
+  "basis": "Independent edited AI-assisted companion notes by the owner, adapted from public lectures; not a transcript, Susskind manuscript or endorsed edition. Source repo GPL-3.0.",
+  "references": [
+    "https://github.com/lachlanchen/leonardsusskind/tree/main/generated_course_notes/core/quantum_mechanics/2012_winter_modern_physics_stanford"
+  ],
+  "checked": "2026-09-25",
+  "cover": {
+    "textFree": false,
+    "originalDesign": true,
+    "basis": "Author project cover artwork, adapted from the published source edition.",
+    "sourceAsset": "leonardsusskind/figs/readme-covers/quantum_mechanics_modern_physics_stanford_first_page.png"
+  },
+  "license": "GPL-3.0-only",
+  "licenseFile": "licenses/GPL-3.0.txt"
+}
