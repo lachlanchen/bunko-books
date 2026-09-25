@@ -11,5 +11,11 @@
   "references": [
     "https://github.com/lachlanchen/HowYouGotRich/tree/main/multilingual/entries"
   ],
-  "checked": "2026-09-25"
+  "checked": "2026-09-25",
+  "cover": {
+    "textFree": false,
+    "originalDesign": true,
+    "basis": "Author project cover artwork, adapted from the published source edition.",
+    "sourceAsset": "HowYouGotRich/assets/cover-page-1.png"
+  }
 }

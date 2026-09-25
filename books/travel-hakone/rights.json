@@ -11,5 +11,11 @@
   "references": [
     "https://github.com/lachlanchen/LazyTravel/tree/main/data/japan/prefectures/kanagawa/hakone"
   ],
-  "checked": "2026-09-25"
+  "checked": "2026-09-25",
+  "cover": {
+    "textFree": true,
+    "originalDesign": false,
+    "basis": "Author project cover artwork, adapted from the published source edition.",
+    "sourceAsset": "LazyTravel/assets/images/hakone/hakone-cover-underlay.png"
+  }
 }
