@@ -63,3 +63,5 @@ Nếu dùng Bunko Books trong nghiên cứu, hãy trích dẫn kho này. GitHub 
 Thư viện hiện có 150 tác phẩm kinh điển thuộc phạm vi công cộng và 12 ấn bản được tác giả cho phép: ghi chú vật lý, sách học tập, sách tài chính và ba cẩm nang du lịch đa ngôn ngữ. Mỗi sách có thể có một hoặc nhiều ngôn ngữ; công thức và hình ảnh vẫn hiển thị trên điện thoại.
 
 [Apple App Store](https://apps.apple.com/app/id6815137919) · [Google Play · đang chờ phát hành](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)
+
+Sáu tập ghi chú vật lý độc lập tiếp tục theo giấy phép [GPL-3.0](../licenses/GPL-3.0.txt); hồ sơ quyền của mỗi tập dẫn tới nguồn có thể chỉnh sửa.

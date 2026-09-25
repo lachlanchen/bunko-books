@@ -15,5 +15,7 @@
     "originalDesign": true,
     "basis": "Author project cover artwork, adapted from the published source edition.",
     "sourceAsset": "leonardsusskind/figs/readme-covers/cosmology_theoretical_minimum_first_page.png"
-  }
+  },
+  "license": "GPL-3.0-only",
+  "licenseFile": "licenses/GPL-3.0.txt"
 }

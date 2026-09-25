@@ -15,5 +15,7 @@
     "originalDesign": true,
     "basis": "Author project cover artwork, adapted from the published source edition.",
     "sourceAsset": "leonardsusskind/figs/readme-covers/classical_mechanics_theoretical_minimum.png"
-  }
+  },
+  "license": "GPL-3.0-only",
+  "licenseFile": "licenses/GPL-3.0.txt"
 }

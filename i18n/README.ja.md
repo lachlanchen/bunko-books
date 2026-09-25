@@ -63,3 +63,5 @@ Bunko Books は LazyingArt の公開書庫です。支援はカタログと読�
 書庫には、パブリックドメインの古典150点に加え、権利を確認した著者自身の版12点を収録しています。物理学の伴読ノート、学習ガイド、金融の本、多言語の旅行ガイド3冊です。単言語・多言語に対応し、数式と図もモバイルで表示します。
 
 [Apple App Store](https://apps.apple.com/app/id6815137919) · [Google Play · 公開待ち](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)
+
+独立した物理学の伴読書6冊には引き続き [GPL-3.0](../licenses/GPL-3.0.txt) が適用され、各権利記録から編集可能な原典へ移動できます。

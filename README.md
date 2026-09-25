@@ -63,3 +63,5 @@ To report missing text, a metadata error, a cover problem or a rights concern, [
 The library now includes 150 public-domain classics and 12 rights-cleared owner editions: physics companion notes, a learning guide, finance books, and three multilingual travel guides. Each book may offer one or several languages. Equations and figures are kept in the mobile reader.
 
 [Apple App Store](https://apps.apple.com/app/id6815137919) · [Google Play · publication pending](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)
+
+The six independent physics companion editions retain [GPL-3.0](licenses/GPL-3.0.txt) terms and link to their editable source in each rights record.
