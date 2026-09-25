@@ -1,0 +1,277 @@
+{
+  "schema": 1,
+  "version": "2026-09-25",
+  "shards": 16,
+  "languages": {
+    "zh": {
+      "name": "CC-CEDICT",
+      "license": "CC BY-SA 4.0",
+      "source": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
+      "entries": 198182,
+      "bytes": 6854078,
+      "files": {
+        "0": {
+          "file": "zh-2026-09-25-0.json.gz",
+          "bytes": 430622,
+          "sha256": "a8826a878f0b8c6de1ca12e706e75cdb3e362a5c0c9fd91df2d437773e0571bd"
+        },
+        "1": {
+          "file": "zh-2026-09-25-1.json.gz",
+          "bytes": 431102,
+          "sha256": "a3a71f40fa60bfae40d10eadca35e46d16e022f9724984a8de91eeb5b423bc8a"
+        },
+        "2": {
+          "file": "zh-2026-09-25-2.json.gz",
+          "bytes": 428558,
+          "sha256": "cc27175a831d3a531ca99d89d9fd1c537884e55cd4f4484c29ab338e080386c3"
+        },
+        "3": {
+          "file": "zh-2026-09-25-3.json.gz",
+          "bytes": 428065,
+          "sha256": "0e6256b17959eb369e42df6696325cf52b9e4b30bea98692b126b5177b1c212b"
+        },
+        "4": {
+          "file": "zh-2026-09-25-4.json.gz",
+          "bytes": 429712,
+          "sha256": "21e5c1526045c00f54bde365825ae4dfa29215d7fb155500d59e9b7f0037cbf4"
+        },
+        "5": {
+          "file": "zh-2026-09-25-5.json.gz",
+          "bytes": 426914,
+          "sha256": "1b3dfd9b95883f3ea03f62d61b0bfe9770a81b35a4dfae221c6152476a227277"
+        },
+        "6": {
+          "file": "zh-2026-09-25-6.json.gz",
+          "bytes": 423523,
+          "sha256": "aa1e33c817a484e89d421f6d0f01b51bf5a2a508587e3d669bee4fb5a7329f99"
+        },
+        "7": {
+          "file": "zh-2026-09-25-7.json.gz",
+          "bytes": 426015,
+          "sha256": "8b99870933e4e5b4902f072579b96dca91cf0e595937a6c2fc23c1b1fd9fdfd3"
+        },
+        "8": {
+          "file": "zh-2026-09-25-8.json.gz",
+          "bytes": 431205,
+          "sha256": "42e86240a6a63b86500399659d7dbc2cabec250b524680805ccafc1736010354"
+        },
+        "9": {
+          "file": "zh-2026-09-25-9.json.gz",
+          "bytes": 426490,
+          "sha256": "3acf2f638b7b0ef97fe7ab9af6806616795dd6779de9f68746bddeb2d5922bbf"
+        },
+        "a": {
+          "file": "zh-2026-09-25-a.json.gz",
+          "bytes": 426323,
+          "sha256": "8d65ae13f31e5301b68f62c84cc1317a825684b686e23c7b22645772d35f7a68"
+        },
+        "b": {
+          "file": "zh-2026-09-25-b.json.gz",
+          "bytes": 421222,
+          "sha256": "898db1ac25202a9ee0cdc9a7585f1c472c3bf38cf6380c5ea706cec6d22de47a"
+        },
+        "c": {
+          "file": "zh-2026-09-25-c.json.gz",
+          "bytes": 434499,
+          "sha256": "c66312fc2dfa1d940b0b5f7a20f603ba153ed2bf12efc91723d127601fb61af0"
+        },
+        "d": {
+          "file": "zh-2026-09-25-d.json.gz",
+          "bytes": 429751,
+          "sha256": "37fba8f085199a7dce931a77dd587c0f346f67ae55aec9c6ec598a52b000c481"
+        },
+        "e": {
+          "file": "zh-2026-09-25-e.json.gz",
+          "bytes": 432209,
+          "sha256": "82ad1b9d2874c28267cccbb685f7587ba120e52504a9636e56eb3f458183e3dc"
+        },
+        "f": {
+          "file": "zh-2026-09-25-f.json.gz",
+          "bytes": 427868,
+          "sha256": "03a4198aff2040bc21b6c166f7be35ae5a5c9edbb05e1abcae8659a7e974aab5"
+        }
+      },
+      "source_sha256": "ee4a029f3a608ccc998b63e73ef933753bf3dce6ec59925aeaf8e69a490b46a1"
+    },
+    "ja": {
+      "name": "JMdict/EDRDG",
+      "license": "CC BY-SA 4.0",
+      "source": "https://www.edrdg.org/edrdg/licence.html",
+      "entries": 465659,
+      "bytes": 15999241,
+      "files": {
+        "0": {
+          "file": "ja-2026-09-25-0.json.gz",
+          "bytes": 999335,
+          "sha256": "4696c61924629ad966164819e8a2a817a9019d3dfa391f7c593774e49838ab34"
+        },
+        "1": {
+          "file": "ja-2026-09-25-1.json.gz",
+          "bytes": 999794,
+          "sha256": "b45c0f85e6f873c171927c5911f37e2d176d22d6fc2acbf24a5551bc5522277e"
+        },
+        "2": {
+          "file": "ja-2026-09-25-2.json.gz",
+          "bytes": 993979,
+          "sha256": "d27eed776e454d8a0845ca834e920157dba48a7ff28bb8a61b1f4fea0bc7852e"
+        },
+        "3": {
+          "file": "ja-2026-09-25-3.json.gz",
+          "bytes": 1006846,
+          "sha256": "360f2b19b1187239fc4ebacb4fa42040079bebb05efb404ae4b410f6e346e589"
+        },
+        "4": {
+          "file": "ja-2026-09-25-4.json.gz",
+          "bytes": 997055,
+          "sha256": "5307d6b18f20227e98e21568416c84d7f50b6343ac387c8f585bb69d95c019a7"
+        },
+        "5": {
+          "file": "ja-2026-09-25-5.json.gz",
+          "bytes": 989866,
+          "sha256": "c4242ca820027df0e9255c2b5daface58a369dae4a6f19534d4502b0c992e50e"
+        },
+        "6": {
+          "file": "ja-2026-09-25-6.json.gz",
+          "bytes": 1001724,
+          "sha256": "63be71b85cd8070aa4e113e9141bd7036772b349c74b87cf2ee6cb1a70891d3c"
+        },
+        "7": {
+          "file": "ja-2026-09-25-7.json.gz",
+          "bytes": 997656,
+          "sha256": "41d1e9378cbffc2961fac2dc4c7fbb7bb5f0d2304291216c0d2829d1c1645bff"
+        },
+        "8": {
+          "file": "ja-2026-09-25-8.json.gz",
+          "bytes": 1005839,
+          "sha256": "055ad2d5fd6b386b205f049ee19b249da2d1bb6f45a8c38d44373794011fb768"
+        },
+        "9": {
+          "file": "ja-2026-09-25-9.json.gz",
+          "bytes": 1006976,
+          "sha256": "1f65ec08f1e8e7716c0fae0e1f506d700a026da26a9809e3da774a846cf80da4"
+        },
+        "a": {
+          "file": "ja-2026-09-25-a.json.gz",
+          "bytes": 1000887,
+          "sha256": "9844dc8b095de6665478fd9df39925e896eaf9b00e7e001edfee1fff2a88253a"
+        },
+        "b": {
+          "file": "ja-2026-09-25-b.json.gz",
+          "bytes": 992060,
+          "sha256": "1b003c483e6d9e413b2063c1003a6061db48702d4cd084ebd9fcc4b90a6cde90"
+        },
+        "c": {
+          "file": "ja-2026-09-25-c.json.gz",
+          "bytes": 1002615,
+          "sha256": "a40699a346343d09d4700854921d8635239a52763bd580ab710898de089a8e29"
+        },
+        "d": {
+          "file": "ja-2026-09-25-d.json.gz",
+          "bytes": 997424,
+          "sha256": "3b5a4a3e45c8b9c9e09070ab9995c4f6bd2d56ba5fc9e51370e6d492c5a7e586"
+        },
+        "e": {
+          "file": "ja-2026-09-25-e.json.gz",
+          "bytes": 1007909,
+          "sha256": "fe082b65dab672ff696ddd11ceb0a881f826ec6bfdcfff9a2b6a418b201f38bf"
+        },
+        "f": {
+          "file": "ja-2026-09-25-f.json.gz",
+          "bytes": 999276,
+          "sha256": "86d9d603caf9c8b5bb22abb4b47a3b39df33c7b1e1b6aea19a7af58a4ef92a37"
+        }
+      },
+      "source_sha256": "7c235a7c6a2439c7c80d0a272d22d687ecac3451d24e49fe08f62fe778dc1ea4"
+    },
+    "en": {
+      "name": "Open English WordNet 2025",
+      "license": "CC BY 4.0",
+      "source": "https://en-word.net/downloads",
+      "entries": 127311,
+      "bytes": 5288923,
+      "files": {
+        "0": {
+          "file": "en-2026-09-25-0.json.gz",
+          "bytes": 329601,
+          "sha256": "dff4b16f0219756f25e7f1cb1ed540d6af92aca7119286163c96df93cb41f4c4"
+        },
+        "1": {
+          "file": "en-2026-09-25-1.json.gz",
+          "bytes": 331593,
+          "sha256": "b6198b0648daf05f78c665ed74bd8ff73490c623c4e15316537166df4065bd6f"
+        },
+        "2": {
+          "file": "en-2026-09-25-2.json.gz",
+          "bytes": 335791,
+          "sha256": "9d7adb20c6cd15613df14016d54ef59da3628437776d0d0b887e0a184184f4ed"
+        },
+        "3": {
+          "file": "en-2026-09-25-3.json.gz",
+          "bytes": 335627,
+          "sha256": "a3b3fe377de5ae271e7b9db23b010388b620e74880409cdd5833f67bcbe67055"
+        },
+        "4": {
+          "file": "en-2026-09-25-4.json.gz",
+          "bytes": 335770,
+          "sha256": "aa454d8bde316660d6329af0e6a0ecc3ffe8ba32342cbc5736fbe958b7d675d3"
+        },
+        "5": {
+          "file": "en-2026-09-25-5.json.gz",
+          "bytes": 332147,
+          "sha256": "4db7ed88c59b238a7901b56e75e1dc08b9066529f8dd9472004b76b69ba247f7"
+        },
+        "6": {
+          "file": "en-2026-09-25-6.json.gz",
+          "bytes": 325363,
+          "sha256": "49cca4958a7e75b99d6447eca9c0fc447120ab8942a12834d945666fc6df5e3e"
+        },
+        "7": {
+          "file": "en-2026-09-25-7.json.gz",
+          "bytes": 329606,
+          "sha256": "5aa435d7449aec1f45ca23f165757044bc566cdc398c4a45ca1da53c050a3e5f"
+        },
+        "8": {
+          "file": "en-2026-09-25-8.json.gz",
+          "bytes": 332954,
+          "sha256": "d40be070360fcfabc1dcbadd79e23e6802aea87f6e58031f08df5385413ebff1"
+        },
+        "9": {
+          "file": "en-2026-09-25-9.json.gz",
+          "bytes": 329060,
+          "sha256": "020f5f67529b0859e2d906388c121679060cfb152b8b5b4b3b9f360ab4165697"
+        },
+        "a": {
+          "file": "en-2026-09-25-a.json.gz",
+          "bytes": 330122,
+          "sha256": "35b44b27b7d3e0a4bfba2ece848561207ed939a0a1b0e2e427cbce7034d014be"
+        },
+        "b": {
+          "file": "en-2026-09-25-b.json.gz",
+          "bytes": 328680,
+          "sha256": "6b474180fccf98683ec98e213a4cb66059142d66d9e42a4a122650bc87719ce2"
+        },
+        "c": {
+          "file": "en-2026-09-25-c.json.gz",
+          "bytes": 331642,
+          "sha256": "294ec4586902371eaf6e346c78650d9b1c5179b3a42055c817cd6f755fa64612"
+        },
+        "d": {
+          "file": "en-2026-09-25-d.json.gz",
+          "bytes": 325422,
+          "sha256": "85aacf46be42b1f82a02b175d4080bed00ff6d78cdcee525fc4d1a1692e19135"
+        },
+        "e": {
+          "file": "en-2026-09-25-e.json.gz",
+          "bytes": 322698,
+          "sha256": "c974e6b7f494c6e59c2345ac36db16313fb13d6b1d8208a379848f6077b13906"
+        },
+        "f": {
+          "file": "en-2026-09-25-f.json.gz",
+          "bytes": 332847,
+          "sha256": "1124151a91277f2a32dbc809615765e882c7be83ca21c37f211454558dfab8c6"
+        }
+      },
+      "source_sha256": "7d749f6e2c39e6970e4997839dcf6e42fd281f3c2fae0171d2192bae8cfa4b51"
+    }
+  }
+}
