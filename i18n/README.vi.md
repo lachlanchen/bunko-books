@@ -58,3 +58,8 @@ Nếu dùng Bunko Books trong nghiên cứu, hãy trích dẫn kho này. GitHub 
 ## Đính chính
 
 Để báo thiếu nội dung, lỗi siêu dữ liệu, bìa hoặc vấn đề quyền, hãy [mở issue cho sách](https://github.com/lachlanchen/bunko-books/issues/new). Bản kiểm tra là hồ sơ minh bạch, không phải chứng nhận pháp lý toàn cầu.
+## Đọc bằng Bunko
+
+Thư viện hiện có 150 tác phẩm kinh điển thuộc phạm vi công cộng và 12 ấn bản được tác giả cho phép: ghi chú vật lý, sách học tập, sách tài chính và ba cẩm nang du lịch đa ngôn ngữ. Mỗi sách có thể có một hoặc nhiều ngôn ngữ; công thức và hình ảnh vẫn hiển thị trên điện thoại.
+
+[Apple App Store](https://apps.apple.com/app/id6815137919) · [Google Play · đang chờ phát hành](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)

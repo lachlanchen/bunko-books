@@ -1,0 +1,19 @@
+{
+  "id": "finance-wealth-first-principles",
+  "status": "ship",
+  "edition": "original-only",
+  "langs": [
+    "en"
+  ],
+  "basis": "Original LazyingArt LLC field guide, supplied by the owner for Bunko.",
+  "references": [
+    "https://github.com/lachlanchen/LazyEarn/tree/main/investment_pdfs/wealth-from-first-principles"
+  ],
+  "checked": "2026-09-25",
+  "cover": {
+    "textFree": true,
+    "originalDesign": false,
+    "basis": "Author project cover artwork, adapted from the published source edition.",
+    "sourceAsset": "LazyEarn/docs/publications/wealth-from-first-principles/cover-art.png"
+  }
+}

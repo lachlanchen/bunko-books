@@ -1,0 +1,19 @@
+{
+  "id": "physics-classical-mechanics",
+  "status": "ship",
+  "edition": "original-only",
+  "langs": [
+    "en"
+  ],
+  "basis": "Independent edited AI-assisted companion notes by the owner, adapted from public lectures; not a transcript, Susskind manuscript or endorsed edition. Original source repo is GPL-3.0; preserve attribution and GPL terms.",
+  "references": [
+    "https://github.com/lachlanchen/leonardsusskind/tree/main/generated_course_notes/core/classical_mechanics/2011_fall_theoretical_minimum"
+  ],
+  "checked": "2026-09-25",
+  "cover": {
+    "textFree": false,
+    "originalDesign": true,
+    "basis": "Author project cover artwork, adapted from the published source edition.",
+    "sourceAsset": "leonardsusskind/figs/readme-covers/classical_mechanics_theoretical_minimum.png"
+  }
+}

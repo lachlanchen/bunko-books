@@ -58,3 +58,8 @@ Bunko Books مكتبة عامة من LazyingArt. يساعد الدعم في صي
 ## التصحيحات
 
 للإبلاغ عن نص ناقص أو خطأ بيانات أو مشكلة غلاف أو حقوق، [افتح بلاغاً للكتاب](https://github.com/lachlanchen/bunko-books/issues/new). التدقيق موثق، لكنه ليس شهادة قانونية عالمية.
+## اقرأ Bunko
+
+تضم المكتبة 150 عملاً كلاسيكياً من الملكية العامة و12 إصداراً مرخّصاً من المؤلف: ملاحظات في الفيزياء، ودليل تعليمي، وكتباً مالية، وثلاثة أدلة سفر متعددة اللغات. يدعم القارئ لغة واحدة أو لغات متعددة، مع المعادلات والصور.
+
+[متجر Apple](https://apps.apple.com/app/id6815137919) · [Google Play · النشر قيد الانتظار](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)

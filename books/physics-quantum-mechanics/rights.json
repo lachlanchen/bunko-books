@@ -1,0 +1,19 @@
+{
+  "id": "physics-quantum-mechanics",
+  "status": "ship",
+  "edition": "original-only",
+  "langs": [
+    "en"
+  ],
+  "basis": "Independent edited AI-assisted companion notes by the owner, adapted from public lectures; not a transcript, Susskind manuscript or endorsed edition. Original source repo is GPL-3.0; preserve attribution and GPL terms.",
+  "references": [
+    "https://github.com/lachlanchen/leonardsusskind/tree/main/generated_course_notes/core/quantum_mechanics/2012_winter_theoretical_minimum_alt_title"
+  ],
+  "checked": "2026-09-25",
+  "cover": {
+    "textFree": false,
+    "originalDesign": true,
+    "basis": "Author project cover artwork, adapted from the published source edition.",
+    "sourceAsset": "leonardsusskind/figs/readme-covers/quantum_mechanics_theoretical_minimum.png"
+  }
+}

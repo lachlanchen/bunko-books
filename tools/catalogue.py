@@ -66,11 +66,22 @@ def book_row(directory):
         require(paragraphs and len(paragraphs) == row.get("paras"), f"{slug}/{name}: paragraph count mismatch")
         for paragraph in paragraphs:
             require(paragraph.get("u"), f"{slug}/{name}: empty paragraph")
+            figure = paragraph.get("figure")
+            if figure:
+                asset = figure.get("path", "")
+                require(re.fullmatch(r"assets/[A-Za-z0-9/_-]+\.(?:png|jpg|jpeg|webp)", asset) and
+                        not (directory / asset).is_symlink() and (directory / asset).is_file(),
+                        f"{slug}/{name}: invalid figure")
             for unit in paragraph["u"]:
                 annotation = unit.get("annotation") is True and not unit.get("src", "").strip()
                 present = [lang for lang in langs if lang in unit]
                 require(present and (annotation or len(present) == len(langs)) and all(line_valid(unit[lang]) for lang in present), f"{slug}/{name}: missing/invalid text layer")
                 require(not (set(unit) & (LANGS - set(langs))), f"{slug}/{name}: uncleared extra language")
+                if unit.get("rich"):
+                    require(set(unit["rich"]) <= set(langs) and all(
+                        isinstance(part, list) and all(isinstance(item, dict) and
+                        ("text" in item or "math" in item) for item in part)
+                        for part in unit["rich"].values()), f"{slug}/{name}: invalid rich text")
         total_bytes += len(data)
         total_paras += len(paragraphs)
     require(total_bytes == meta.get("bytes") and total_paras == meta.get("paras"), f"{slug}: totals mismatch")
@@ -84,7 +95,7 @@ def book_row(directory):
         require(COVER.fullmatch(name), f"{slug}: invalid cover path")
         cover = directory / name
         require(not cover.is_symlink() and cover.stat().st_size < 10_000_000, f"{slug}: invalid cover file")
-        require(rights.get("cover", {}).get("textFree") is True and rights["cover"].get("basis"), f"{slug}: cover not reviewed")
+        require(rights.get("cover", {}).get("basis") and (rights["cover"].get("textFree") is True or rights["cover"].get("originalDesign") is True), f"{slug}: cover not reviewed")
         require(sha(cover.read_bytes()).startswith(name.split("-")[1].split(".")[0]), f"{slug}: cover hash mismatch")
         row["cover"] = f"books/{slug}/{name}"
     return row

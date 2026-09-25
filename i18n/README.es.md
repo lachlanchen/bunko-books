@@ -58,3 +58,8 @@ Si usas Bunko Books en investigación, cita este repositorio. GitHub lee [CITATI
 ## Correcciones
 
 Para comunicar texto faltante, metadatos erróneos, problemas de cubierta o derechos, [abre una incidencia](https://github.com/lachlanchen/bunko-books/issues/new). La auditoría documenta una revisión, no una certificación legal mundial.
+## Leer en Bunko
+
+La biblioteca reúne 150 clásicos de dominio público y 12 ediciones autorizadas por su autor: apuntes de física, una guía de aprendizaje, libros de finanzas y tres guías de viaje multilingües. Cada libro puede tener uno o varios idiomas; el lector móvil conserva las ecuaciones y figuras.
+
+[App Store de Apple](https://apps.apple.com/app/id6815137919) · [Google Play · publicación pendiente](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)

@@ -58,3 +58,8 @@ Bunko Books 是 LazyingArt 的開放書庫。你的支持有助於維護書目�
 ## 勘誤
 
 如發現正文缺漏、元資料錯誤、封面問題或版權疑慮，請[提交書籍 issue](https://github.com/lachlanchen/bunko-books/issues/new)。審核紀錄並非全球通用的法律認證。
+## 在 Bunko 閱讀
+
+書庫現有 150 部公共領域經典與 12 部經作者授權的作品：物理學伴讀筆記、學習指南、財經書籍，以及三本多語旅行指南。每本書可有一種或多種語言，公式與插圖也能在手機上閱讀。
+
+[Apple App Store](https://apps.apple.com/app/id6815137919) · [Google Play · 待上架](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)

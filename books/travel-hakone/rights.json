@@ -1,0 +1,15 @@
+{
+  "id": "travel-hakone",
+  "status": "ship",
+  "edition": "multilingual",
+  "langs": [
+    "en",
+    "zh",
+    "ja"
+  ],
+  "basis": "Original LazyingArt travel-guide text and generated illustrations; accepted multilingual edition with source and asset provenance in the source repository.",
+  "references": [
+    "https://github.com/lachlanchen/LazyTravel/tree/main/data/japan/prefectures/kanagawa/hakone"
+  ],
+  "checked": "2026-09-25"
+}

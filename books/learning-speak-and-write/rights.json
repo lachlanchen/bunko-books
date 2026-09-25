@@ -1,0 +1,19 @@
+{
+  "id": "learning-speak-and-write",
+  "status": "ship",
+  "edition": "original-only",
+  "langs": [
+    "en"
+  ],
+  "basis": "Owner-authored edited learning notes, supplied by the owner for Bunko. This is a companion edition, not a verbatim lecture transcript.",
+  "references": [
+    "https://github.com/lachlanchen/LazyLearn/tree/main/generated_course_notes/lazylearn/how-you-speak-and-write"
+  ],
+  "checked": "2026-09-25",
+  "cover": {
+    "textFree": true,
+    "originalDesign": false,
+    "basis": "Author project cover artwork, adapted from the published source edition.",
+    "sourceAsset": "LazyLearn/generated_course_notes/lazylearn/how-you-speak-and-write/how-to-speak-and-write/assets/cover-art.png"
+  }
+}

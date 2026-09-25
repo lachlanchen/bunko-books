@@ -1,0 +1,15 @@
+{
+  "id": "how-you-got-rich",
+  "status": "ship",
+  "edition": "multilingual",
+  "langs": [
+    "en",
+    "ja",
+    "zh"
+  ],
+  "basis": "Author-owned V3 original book and reviewed Japanese and Chinese editions, supplied by the owner for Bunko.",
+  "references": [
+    "https://github.com/lachlanchen/HowYouGotRich/tree/main/multilingual/entries"
+  ],
+  "checked": "2026-09-25"
+}
