@@ -8,7 +8,7 @@
 
 [![Reader](https://img.shields.io/badge/Open-Bunko-303F68?style=for-the-badge)](https://lachlan.lazying.art/Bunko/) [![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/lachlanchen)
 
-이 저장소에는 공개 도메인 고전의 완결 판본 150종이 작은 JSON 장으로 들어 있습니다. 글자 위 발음과 문자 없는 것으로 검토한 표지도 함께 제공합니다. Bunko는 독자가 여는 장만 내려받아 오프라인에 저장합니다. 앱 코드는 [Bunko](https://github.com/lachlanchen/Bunko)에 있고, 승인된 책을 추가할 때 앱을 다시 빌드할 필요가 없습니다.
+이 저장소에는 권리를 확인한 판본 185종이 작은 JSON 장으로 들어 있으며, 가능한 경우 루비 읽기와 검토된 표지를 제공합니다. Bunko는 독자가 여는 장만 내려받아 오프라인에 저장합니다. 앱 코드는 [Bunko](https://github.com/lachlanchen/Bunko)에 있고, 승인된 책을 추가할 때 앱을 다시 빌드할 필요가 없습니다.
 
 <p align="center"><a href="../assets/classics-clean-2026-09-23.png"><img src="../assets/classics-clean-2026-09-23.png" alt="문자 없는 표지 그림" width="300"></a></p>
 
@@ -31,7 +31,7 @@ python3 tools/catalogue.py --write
 
 ## 권리와 호환성
 
-각 묶음에는 `meta.json`, `rights.json`, 압축된 장 파일이 필요하며 검토된 문자 없는 표지는 선택 사항입니다. [판본 검토 기록](https://github.com/lachlanchen/Bunko/blob/main/docs/catalogue.md)에 원작 근거가 있습니다. 최종 번역은 Codex가 생성했다고 소유자가 확인했습니다. 캐시된 독자를 위해 내용 기반 이름의 이전 장 파일을 유지하세요. 공개 도메인 상태는 지역마다 다를 수 있습니다.
+각 묶음에는 `meta.json`, `rights.json`, 압축된 장 파일이 필요하며 검토된 문자 없는 표지는 선택 사항입니다. [판본 검토 기록](https://github.com/lachlanchen/Bunko/blob/main/docs/catalogue.md)에 원작 근거가 있습니다. 번역 출처와 이용 조건은 각 도서 묶음의 권리 파일에 기록합니다. 캐시된 독자를 위해 내용 기반 이름의 이전 장 파일을 유지하세요. 공개 도메인 상태는 지역마다 다를 수 있습니다.
 
 
 ## 도서관 후원
@@ -60,7 +60,7 @@ Bunko Books는 LazyingArt의 공개 도서관입니다. 후원은 목록과 읽�
 누락된 본문, 메타데이터나 표지 오류, 권리 문제는 [책 이슈](https://github.com/lachlanchen/bunko-books/issues/new)로 알려 주세요. 검토 기록은 전 세계 법적 보증이 아닙니다.
 ## Bunko에서 읽기
 
-서재에는 퍼블릭 도메인 고전 150권과 저자가 공개를 허락한 도서 33권이 있습니다. 물리학 해설, 학습 안내서, 금융 도서, 다국어 여행 안내서 세 권을 포함합니다. 한 언어 또는 여러 언어로 읽을 수 있으며 수식과 그림도 모바일에서 표시됩니다.
+서재에는 권리를 확인한 판본 185종이 있습니다. 고전, 물리학 해설, 학습 및 금융 도서, 다국어 여행 안내서를 포함합니다. 한 언어 또는 여러 언어로 읽을 수 있으며 수식과 그림도 모바일에서 표시됩니다.
 
 [Apple App Store](https://apps.apple.com/app/id6815137919) · [Google Play · 출시 대기 중](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)
 

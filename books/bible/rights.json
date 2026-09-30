@@ -1,0 +1,31 @@
+{
+  "basis": "World English Bible, 66-book English edition; eBible.org explicitly dedicates the translation to the public domain and permits redistribution. Text preserved, with notes and cross references retained. This is not the incomplete local KJV-based export.",
+  "references": [
+    "https://ebible.org/engwebp/copyright.htm",
+    "https://ebible.org/Scriptures/engwebp_usfx.zip"
+  ],
+  "sourceFiles": [
+    {
+      "url": "https://ebible.org/Scriptures/engwebp_usfx.zip",
+      "sha256": "dd2b4b99050b3470222182a1c140cc56bbae6842e2755e2a22aeed9a7f45206e"
+    }
+  ],
+  "coverage": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31103,
+    "notes": 1571
+  },
+  "id": "bible",
+  "status": "ship",
+  "edition": "original-only",
+  "langs": [
+    "en"
+  ],
+  "checked": "2026-09-30",
+  "cover": {
+    "textFree": true,
+    "basis": "Existing project artwork, reviewed without title typography.",
+    "sourceAsset": "ZhJpBook/assets/covers/bible/background.png"
+  }
+}

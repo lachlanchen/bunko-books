@@ -8,7 +8,7 @@
 
 [![Reader](https://img.shields.io/badge/Open-Bunko-303F68?style=for-the-badge)](https://lachlan.lazying.art/Bunko/) [![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/lachlanchen)
 
-Ce dépôt héberge 150 éditions complètes de classiques du domaine public sous forme de petits chapitres JSON, avec lectures ruby et couvertures illustrées vérifiées sans texte. Bunko ne télécharge que les chapitres ouverts et les garde hors ligne. L’application se trouve dans [Bunko](https://github.com/lachlanchen/Bunko) ; ajouter ici un livre approuvé ne demande pas de nouvelle version.
+Ce dépôt héberge 185 éditions autorisées sous forme de chapitres JSON compacts, avec lectures ruby et couvertures vérifiées lorsqu’elles sont disponibles. Bunko ne télécharge que les chapitres ouverts et les garde hors ligne. L’application se trouve dans [Bunko](https://github.com/lachlanchen/Bunko) ; ajouter ici un livre approuvé ne demande pas de nouvelle version.
 
 <p align="center"><a href="../assets/classics-clean-2026-09-23.png"><img src="../assets/classics-clean-2026-09-23.png" alt="Couverture illustrée sans texte" width="300"></a></p>
 
@@ -31,7 +31,7 @@ python3 tools/catalogue.py --write
 
 ## Droits et compatibilité
 
-Chaque lot nécessite `meta.json`, `rights.json` et des chapitres compacts ; une couverture vérifiée sans texte est facultative. L’[audit des éditions](https://github.com/lachlanchen/Bunko/blob/main/docs/catalogue.md) documente l’œuvre originale. Le propriétaire confirme que Codex a produit les traductions finales. Conservez les anciens chapitres nommés selon leur contenu pour les lecteurs avec cache. Le domaine public varie selon les territoires.
+Chaque lot nécessite `meta.json`, `rights.json` et des chapitres compacts ; une couverture vérifiée sans texte est facultative. L’[audit des éditions](https://github.com/lachlanchen/Bunko/blob/main/docs/catalogue.md) documente l’œuvre originale. Les sources des traductions et les autorisations figurent dans le fichier de droits de chaque livre. Conservez les anciens chapitres nommés selon leur contenu pour les lecteurs avec cache. Le domaine public varie selon les territoires.
 
 
 ## Soutenir la bibliothèque
@@ -60,7 +60,7 @@ Si vous utilisez Bunko Books dans une recherche, citez ce dépôt. GitHub lit [C
 Pour signaler un texte manquant, une erreur de métadonnées, de couverture ou de droits, [ouvrez un ticket](https://github.com/lachlanchen/bunko-books/issues/new). L’audit est documenté, mais ne vaut pas certification juridique mondiale.
 ## Lire dans Bunko
 
-La bibliothèque réunit 150 classiques du domaine public et 33 éditions autorisées par leur auteur : notes de physique, guide d’apprentissage, livres de finance et trois guides de voyage multilingues. Chaque livre peut proposer une ou plusieurs langues ; les équations et figures restent lisibles sur mobile.
+La bibliothèque réunit 185 éditions autorisées : classiques, notes de physique, livres de formation et de finance, et guides de voyage multilingues. Les livres proposent une ou plusieurs langues ; les équations et illustrations restent lisibles sur mobile.
 
 [App Store d’Apple](https://apps.apple.com/app/id6815137919) · [Google Play · publication en attente](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)
 

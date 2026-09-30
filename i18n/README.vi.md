@@ -8,7 +8,7 @@
 
 [![Reader](https://img.shields.io/badge/Open-Bunko-303F68?style=for-the-badge)](https://lachlan.lazying.art/Bunko/) [![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/lachlanchen)
 
-Kho này lưu 150 ấn bản hoàn chỉnh của tác phẩm kinh điển thuộc phạm vi công cộng dưới dạng các chương JSON gọn nhẹ, kèm cách đọc ruby và bìa minh họa đã kiểm tra không có chữ. Bunko chỉ tải các chương được mở rồi lưu để đọc ngoại tuyến. Ứng dụng ở kho [Bunko](https://github.com/lachlanchen/Bunko); thêm sách đã duyệt ở đây không cần tạo lại ứng dụng.
+Kho này lưu 185 ấn bản đã được duyệt quyền dưới dạng các chương JSON gọn nhẹ, kèm cách đọc ruby và bìa đã kiểm tra khi có. Bunko chỉ tải các chương được mở rồi lưu để đọc ngoại tuyến. Ứng dụng ở kho [Bunko](https://github.com/lachlanchen/Bunko); thêm sách đã duyệt ở đây không cần tạo lại ứng dụng.
 
 <p align="center"><a href="../assets/classics-clean-2026-09-23.png"><img src="../assets/classics-clean-2026-09-23.png" alt="Bìa minh họa không chữ" width="300"></a></p>
 
@@ -31,7 +31,7 @@ python3 tools/catalogue.py --write
 
 ## Quyền và tương thích
 
-Mỗi gói cần `meta.json`, `rights.json` và các chương gọn; bìa đã kiểm tra không có chữ là tùy chọn. [Bản kiểm tra ấn bản](https://github.com/lachlanchen/Bunko/blob/main/docs/catalogue.md) ghi căn cứ tác phẩm gốc. Chủ sở hữu xác nhận bản dịch cuối do Codex tạo. Giữ các chương cũ có tên theo nội dung cho người đọc đã lưu bộ nhớ đệm. Tình trạng phạm vi công cộng có thể khác theo lãnh thổ.
+Mỗi gói cần `meta.json`, `rights.json` và các chương gọn; bìa đã kiểm tra không có chữ là tùy chọn. [Bản kiểm tra ấn bản](https://github.com/lachlanchen/Bunko/blob/main/docs/catalogue.md) ghi căn cứ tác phẩm gốc. Nguồn bản dịch và điều kiện sử dụng được ghi trong hồ sơ quyền của từng gói sách. Giữ các chương cũ có tên theo nội dung cho người đọc đã lưu bộ nhớ đệm. Tình trạng phạm vi công cộng có thể khác theo lãnh thổ.
 
 
 ## Ủng hộ thư viện
@@ -60,7 +60,7 @@ Nếu dùng Bunko Books trong nghiên cứu, hãy trích dẫn kho này. GitHub 
 Để báo thiếu nội dung, lỗi siêu dữ liệu, bìa hoặc vấn đề quyền, hãy [mở issue cho sách](https://github.com/lachlanchen/bunko-books/issues/new). Bản kiểm tra là hồ sơ minh bạch, không phải chứng nhận pháp lý toàn cầu.
 ## Đọc bằng Bunko
 
-Thư viện hiện có 150 tác phẩm kinh điển thuộc phạm vi công cộng và 33 ấn bản được tác giả cho phép: ghi chú vật lý, sách học tập, sách tài chính và ba cẩm nang du lịch đa ngôn ngữ. Mỗi sách có thể có một hoặc nhiều ngôn ngữ; công thức và hình ảnh vẫn hiển thị trên điện thoại.
+Thư viện có 185 ấn bản đã được duyệt quyền, gồm tác phẩm kinh điển, ghi chú vật lý, sách học tập và tài chính, cùng cẩm nang du lịch đa ngôn ngữ. Sách có thể có một hoặc nhiều ngôn ngữ; công thức và hình ảnh vẫn hiển thị trên điện thoại.
 
 [Apple App Store](https://apps.apple.com/app/id6815137919) · [Google Play · đang chờ phát hành](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)
 

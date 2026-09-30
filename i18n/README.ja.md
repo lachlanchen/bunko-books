@@ -8,7 +8,7 @@
 
 [![Reader](https://img.shields.io/badge/Open-Bunko-303F68?style=for-the-badge)](https://lachlan.lazying.art/Bunko/) [![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/lachlanchen)
 
-このリポジトリには、パブリックドメインの古典 150 版を、ルビ情報付きの小さな JSON 章と、文字のないことを確認した表紙画像として収めています。Bunko は開いた章だけを取得し、オフライン用に保存します。アプリ本体は [Bunko](https://github.com/lachlanchen/Bunko) にあり、承認済みの本を追加してもアプリの再ビルドは不要です。
+このリポジトリには権利を確認した185版を小さなJSON章として収め、利用可能なルビ情報と審査済みの表紙を添えています。 Bunko は開いた章だけを取得し、オフライン用に保存します。アプリ本体は [Bunko](https://github.com/lachlanchen/Bunko) にあり、承認済みの本を追加してもアプリの再ビルドは不要です。
 
 <p align="center"><a href="../assets/classics-clean-2026-09-23.png"><img src="../assets/classics-clean-2026-09-23.png" alt="文字のない表紙イラスト" width="300"></a></p>
 
@@ -31,7 +31,7 @@ python3 tools/catalogue.py --write
 
 ## 権利と互換性
 
-各バンドルには `meta.json`、`rights.json`、圧縮した章ファイルが必要で、審査済みの文字なし表紙は任意です。[版の調査記録](https://github.com/lachlanchen/Bunko/blob/main/docs/catalogue.md) に原著の根拠を記しています。最終訳は Codex が生成したと所有者が確認しています。キャッシュ済みの読者のため、内容に基づく名前の古い章を残してください。パブリックドメインの範囲は地域で異なります。
+各バンドルには `meta.json`、`rights.json`、圧縮した章ファイルが必要で、審査済みの文字なし表紙は任意です。[版の調査記録](https://github.com/lachlanchen/Bunko/blob/main/docs/catalogue.md) に原著の根拠を記しています。翻訳の出典と利用条件は各書籍の権利ファイルに記録しています。キャッシュ済みの読者のため、内容に基づく名前の古い章を残してください。パブリックドメインの範囲は地域で異なります。
 
 
 ## 書庫を支援
@@ -60,7 +60,7 @@ Bunko Books は LazyingArt の公開書庫です。支援はカタログと読�
 本文の欠落、メタデータや表紙の誤り、権利上の懸念は [書籍の issue](https://github.com/lachlanchen/bunko-books/issues/new) で知らせてください。調査記録は世界共通の法的保証ではありません。
 ## Bunko で読む
 
-書庫には、パブリックドメインの古典150点に加え、権利を確認した著者自身の版33点を収録しています。物理学の伴読ノート、学習ガイド、金融の本、多言語の旅行ガイド3冊です。単言語・多言語に対応し、数式と図もモバイルで表示します。
+書庫には権利を確認した185版を収録しています。古典、物理学の伴読ノート、学習・金融の本、多言語の旅行ガイドを含みます。単言語・多言語に対応し、数式と図もモバイルで表示します。
 
 [Apple App Store](https://apps.apple.com/app/id6815137919) · [Google Play · 公開待ち](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)
 

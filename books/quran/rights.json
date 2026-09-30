@@ -1,0 +1,67 @@
+{
+  "basis": "Translations redistributed with permission under QuranEnc.com Terms and Policies. These are credited publisher translations, not public-domain or generated translations. Full translation text, markers, footnotes, translator information and versions are preserved. Matching Chinese pinyin is an optional display aid; unaudited Japanese readings from the old export are not reused.",
+  "references": [
+    "https://quranenc.com/en/home",
+    "https://quranenc.com/en/home/api"
+  ],
+  "translations": {
+    "en": {
+      "key": "english_rwwad",
+      "title": "English Translation - Rowwad Translation Center",
+      "description": "Translated by the team of the Rowwad Translation Center, in cooperation with the Rabwah Dawah Association, the Islamic Content Service Association in Languages, and the IslamHouse.com website.",
+      "version": "1.0.19",
+      "last_update": 1773348325
+    },
+    "zh": {
+      "key": "chinese_makin",
+      "title": "Chinese Translation - Muhammad Makeen",
+      "description": "Translated by Muhammad Makeen, developed under the supervision of the Rowwad Translation Center. The original translation is available for the purpose of expressing opinion, evaluation, and continuous development.",
+      "version": "1.0.2",
+      "last_update": 1662501318
+    },
+    "ja": {
+      "key": "japanese_saeedsato",
+      "title": "Japanese Translation - Saeed Sato",
+      "description": "Translated by Saeed Sato, developed under the supervision of the Rowwad Translation Center. The original translation is available for the purpose of expressing opinion, evaluation, and continuous development.",
+      "version": "1.0.13",
+      "last_update": 1782308017
+    }
+  },
+  "terms": "QuranEnc.com permits downloading and republication subject to its terms: preserve the contents without modification, addition or deletion; clearly credit the publisher and source; state the version; retain translation information; notify QuranEnc.com of translation concerns; update from the latest source version; and display no inappropriate advertisements. See https://quranenc.com/en/home/api .",
+  "sourceFiles": [
+    {
+      "url": "https://quranenc.com/downloads/sqlite/english_rwwad.sqlite",
+      "sha256": "77e2ede3d8e6d6b5c6e16ff78eda2d2b6cc0a6b7489c94a5dde4f7481f5fdee8",
+      "version": "1.0.19"
+    },
+    {
+      "url": "https://quranenc.com/downloads/sqlite/chinese_makin.sqlite",
+      "sha256": "669bb611de8a5b96c8824c55bd9537e8cb30e1601127d3c72d9b9abeb4beea91",
+      "version": "1.0.2"
+    },
+    {
+      "url": "https://quranenc.com/downloads/sqlite/japanese_saeedsato.sqlite",
+      "sha256": "9b3f315e0c6b87a2f406ff27aa7feafaa7ff972ee58cb0b1b391868b72b49195",
+      "version": "1.0.13"
+    }
+  ],
+  "coverage": {
+    "surahs": 114,
+    "versesPerLanguage": 6236,
+    "versesWithNotes": {
+      "en": 2215,
+      "zh": 0,
+      "ja": 3484
+    }
+  },
+  "display": "English, Chinese and Japanese meanings; no Arabic layer. No advertisements.",
+  "id": "quran",
+  "status": "ship",
+  "edition": "multilingual",
+  "langs": [
+    "en",
+    "zh",
+    "ja"
+  ],
+  "checked": "2026-09-30"
+}

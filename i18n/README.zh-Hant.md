@@ -8,7 +8,7 @@
 
 [![Reader](https://img.shields.io/badge/Open-Bunko-303F68?style=for-the-badge)](https://lachlan.lazying.art/Bunko/) [![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/lachlanchen)
 
-本儲存庫存放 150 種完整的公版古典版本，以小型 JSON 章節分發，包含注音與經檢查的無文字插畫封面。Bunko 只下載讀者開啟的章節，並將其快取供離線閱讀。應用程式程式碼在 [Bunko](https://github.com/lachlanchen/Bunko)；在此加入審核通過的書籍，不必重新建置應用程式。
+本儲存庫存放185種通過權利審核的版本，按小型JSON章節分發，並提供可用的注音與經檢查的封面。 Bunko 按需下載讀者開啟的章節，無須一次下載整本書，並將已下載內容快取於本機，方便沒有網路時繼續閱讀。應用程式程式碼在 [Bunko](https://github.com/lachlanchen/Bunko)；在此加入審核通過的書籍，不必重新建置應用程式。
 
 <p align="center"><a href="../assets/classics-clean-2026-09-23.png"><img src="../assets/classics-clean-2026-09-23.png" alt="無文字插畫封面" width="300"></a></p>
 
@@ -31,7 +31,7 @@ python3 tools/catalogue.py --write
 
 ## 版權與相容性
 
-每個書籍包須含 `meta.json`、`rights.json` 與精簡章節檔案；經檢查的無文字封面可選。[版本審核](https://github.com/lachlanchen/Bunko/blob/main/docs/catalogue.md)記錄原著依據。擁有者確認最終譯文由 Codex 產生。請保留以內容命名的舊章節，供已有快取的讀者使用。公版資格可能因地區不同。
+每個書籍包須含 `meta.json`、`rights.json` 與精簡章節檔案；經檢查的無文字封面可選。[版本審核](https://github.com/lachlanchen/Bunko/blob/main/docs/catalogue.md)記錄原著依據。每個書籍包的權利檔案均記錄譯文來源與使用條件。請保留以內容命名的舊章節，供已有快取的讀者使用。公版資格可能因地區不同。
 
 
 ## 支持書庫
@@ -60,7 +60,7 @@ Bunko Books 是 LazyingArt 的開放書庫。你的支持有助於維護書目�
 如發現正文缺漏、元資料錯誤、封面問題或版權疑慮，請[提交書籍 issue](https://github.com/lachlanchen/bunko-books/issues/new)。審核紀錄並非全球通用的法律認證。
 ## 在 Bunko 閱讀
 
-書庫現有 150 部公共領域經典與 33 部經作者授權的作品：物理學伴讀筆記、學習指南、財經書籍，以及三本多語旅行指南。每本書可有一種或多種語言，公式與插圖也能在手機上閱讀。
+書庫現有185種通過權利審核的版本，包括經典、物理學伴讀筆記、學習與財經書籍，以及多語旅行指南。每本書可有一種或多種語言，公式與插圖也能在手機上閱讀。
 
 [Apple App Store](https://apps.apple.com/app/id6815137919) · [Google Play · 待上架](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)
 

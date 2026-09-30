@@ -8,7 +8,7 @@
 
 [![Reader](https://img.shields.io/badge/Open-Bunko-303F68?style=for-the-badge)](https://lachlan.lazying.art/Bunko/) [![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/lachlanchen)
 
-Dieses Repository enthält 150 vollständige Ausgaben gemeinfreier Klassiker als kompakte JSON-Kapitel mit Ruby-Lesungen und geprüften textfreien Illustrationscovern. Bunko lädt nur geöffnete Kapitel und speichert sie offline. Die App liegt in [Bunko](https://github.com/lachlanchen/Bunko); ein neues freigegebenes Buch benötigt keinen neuen App-Build.
+Dieses Repository enthält 185 freigegebene Ausgaben als kompakte JSON-Kapitel, mit Ruby-Lesungen und geprüften Covern, soweit verfügbar. Bunko lädt nur geöffnete Kapitel und speichert sie offline. Die App liegt in [Bunko](https://github.com/lachlanchen/Bunko); ein neues freigegebenes Buch benötigt keinen neuen App-Build.
 
 <p align="center"><a href="../assets/classics-clean-2026-09-23.png"><img src="../assets/classics-clean-2026-09-23.png" alt="Textfreies illustriertes Cover" width="300"></a></p>
 
@@ -31,7 +31,7 @@ python3 tools/catalogue.py --write
 
 ## Rechte und Kompatibilität
 
-Jedes Paket braucht `meta.json`, `rights.json` und kompakte Kapiteldateien; ein geprüftes textfreies Cover ist optional. Die [Ausgabenprüfung](https://github.com/lachlanchen/Bunko/blob/main/docs/catalogue.md) dokumentiert das Originalwerk. Laut Eigentümer stammen die endgültigen Übersetzungen von Codex. Behalte ältere inhaltsadressierte Kapitel für Leser mit Cache. Gemeinfreiheit kann je nach Gebiet variieren.
+Jedes Paket braucht `meta.json`, `rights.json` und kompakte Kapiteldateien; ein geprüftes textfreies Cover ist optional. Die [Ausgabenprüfung](https://github.com/lachlanchen/Bunko/blob/main/docs/catalogue.md) dokumentiert das Originalwerk. Übersetzungsquellen und Nutzungsbedingungen stehen in der Rechtedatei des jeweiligen Buchpakets. Behalte ältere inhaltsadressierte Kapitel für Leser mit Cache. Gemeinfreiheit kann je nach Gebiet variieren.
 
 
 ## Bibliothek unterstützen
@@ -60,7 +60,7 @@ Wenn du Bunko Books für Forschung nutzt, zitiere dieses Repository. GitHub lies
 Fehlenden Text, falsche Metadaten, Cover-Probleme oder Rechtebedenken kannst du als [Buch-Issue](https://github.com/lachlanchen/bunko-books/issues/new) melden. Die dokumentierte Prüfung ist keine weltweite Rechtsbescheinigung.
 ## Bunko lesen
 
-Die Bibliothek enthält jetzt 150 gemeinfreie Klassiker und 33 vom Autor freigegebene Ausgaben: Physik-Begleittexte, einen Lernführer, Finanzbücher und drei mehrsprachige Reiseführer. Bücher können eine oder mehrere Sprachen haben; Formeln und Abbildungen bleiben im mobilen Reader erhalten.
+Die Bibliothek enthält 185 freigegebene Ausgaben: Klassiker, Physik-Begleittexte, Lern- und Finanzbücher sowie mehrsprachige Reiseführer. Bücher können eine oder mehrere Sprachen haben; Formeln und Abbildungen bleiben im mobilen Reader erhalten.
 
 [Apple App Store](https://apps.apple.com/app/id6815137919) · [Google Play · Veröffentlichung ausstehend](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)
 
