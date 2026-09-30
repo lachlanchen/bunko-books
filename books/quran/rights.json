@@ -1,5 +1,5 @@
 {
-  "basis": "Arabic text: Tanzil Uthmani 1.1, CC BY 3.0 with verbatim reproduction terms; full text, basmalahs and source notice retained. Translations redistributed with permission under QuranEnc.com Terms and Policies. These are credited publisher translations, not public-domain or generated translations. Full translation text, markers, footnotes, translator information and versions are preserved. Matching Chinese pinyin is an optional display aid; unaudited Japanese readings from the old export are not reused.",
+  "basis": "Arabic text: Tanzil Uthmani 1.1, CC BY 3.0 with verbatim reproduction terms; full text, basmalahs and source notice retained. Translations redistributed with permission under QuranEnc.com Terms and Policies. These are credited publisher translations, not public-domain or generated translations. Full translation text, markers, footnotes, translator information and versions are preserved. Matching Chinese pinyin and Japanese word-level furigana are optional display aids; publisher base text remains unchanged.",
   "references": [
     "https://tanzil.net",
     "https://tanzil.net/docs/Text_License",
@@ -63,6 +63,11 @@
     }
   },
   "display": "Arabic original (RTL), English, Chinese and Japanese meanings. Basmalahs retained verbatim in the Tanzil opening verses. No advertisements.",
+  "readingAids": {
+    "ja": "Optional word-level Japanese furigana from UniDic with reviewed scripture readings. All publisher base text is unchanged.",
+    "source": "https://github.com/polm/unidic-lite",
+    "dictionarySha256": "122c4c91f026bf4b65bbe2dfd8b9f8eeb6ab56d8eb2a7287a68bca75708ba513"
+  },
   "id": "quran",
   "status": "ship",
   "edition": "multilingual",
