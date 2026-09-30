@@ -10,6 +10,8 @@
 
 Ce dépôt héberge 185 éditions autorisées sous forme de chapitres JSON compacts, avec lectures ruby et couvertures vérifiées lorsqu’elles sont disponibles. Bunko ne télécharge que les chapitres ouverts et les garde hors ligne. L’application se trouve dans [Bunko](https://github.com/lachlanchen/Bunko) ; ajouter ici un livre approuvé ne demande pas de nouvelle version.
 
+Les livres peuvent contenir autant de langues que nécessaire, identifiées par des balises standard, dont l’arabe et les écritures de droite à gauche. Choisissez les langues à afficher ; les passages correspondants restent ensemble. Les langues des livres sont indépendantes des traductions de l’interface.
+
 <p align="center"><a href="../assets/classics-clean-2026-09-23.png"><img src="../assets/classics-clean-2026-09-23.png" alt="Couverture illustrée sans texte" width="300"></a></p>
 
 ## Dans la bibliothèque

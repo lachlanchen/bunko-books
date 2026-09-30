@@ -57,6 +57,18 @@ class PublicationGate(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "uncleared"):
             book_row(self.root)
 
+    def test_arbitrary_languages_and_unlimited_layers(self):
+        langs = ["ar", "en", "zh", "ja", "he", "fa", "fr-CA", "hi", "el"]
+        self.meta.update(langs=langs, primary="ar", titleText={"ar": "الكتاب"})
+        self.rights["langs"] = langs
+        self.chapter["p"][0]["u"] = [{"src": "Text", **{l: ["Text"] for l in langs}}]
+        self.write()
+        self.assertEqual(book_row(self.root)["langs"], langs)
+        self.chapter["p"][0]["u"][0]["ur"] = ["Uncleared"]
+        self.write()
+        with self.assertRaisesRegex(ValueError, "uncleared"):
+            book_row(self.root)
+
     def test_path_traversal_rejected(self):
         self.meta["chapters"][0]["file"] = "../c0001.json"
         self.write()

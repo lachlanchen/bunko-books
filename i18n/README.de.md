@@ -10,6 +10,8 @@
 
 Dieses Repository enthält 185 freigegebene Ausgaben als kompakte JSON-Kapitel, mit Ruby-Lesungen und geprüften Covern, soweit verfügbar. Bunko lädt nur geöffnete Kapitel und speichert sie offline. Die App liegt in [Bunko](https://github.com/lachlanchen/Bunko); ein neues freigegebenes Buch benötigt keinen neuen App-Build.
 
+Bücher können beliebig viele Sprachebenen mit standardisierten Sprachkennungen enthalten, einschließlich Arabisch und anderer Schriften von rechts nach links. Wähle die gewünschten Sprachen; entsprechende Textstellen bleiben zusammen. Buchsprachen und Übersetzungen der Oberfläche sind unabhängig voneinander.
+
 <p align="center"><a href="../assets/classics-clean-2026-09-23.png"><img src="../assets/classics-clean-2026-09-23.png" alt="Textfreies illustriertes Cover" width="300"></a></p>
 
 ## In der Bibliothek

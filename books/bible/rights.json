@@ -1,26 +1,267 @@
 {
-  "basis": "World English Bible, 66-book English edition; eBible.org explicitly dedicates the translation to the public domain and permits redistribution. Text preserved, with notes and cross references retained. This is not the incomplete local KJV-based export.",
+  "basis": "Complete 66-book English WEB, Chinese Union Version (traditional), and Japanese Freedom Bible (publisher draft), each explicitly public domain at eBible.org. Publisher text, combined verse ranges, notes and source numbering retained; textual variants are not fabricated. Optional matching pronunciation aids from the owner-authorized earlier edition.",
   "references": [
     "https://ebible.org/engwebp/copyright.htm",
-    "https://ebible.org/Scriptures/engwebp_usfx.zip"
+    "https://ebible.org/cmn-cu89t/copyright.htm",
+    "https://ebible.org/jpnm/copyright.htm"
   ],
   "sourceFiles": [
     {
       "url": "https://ebible.org/Scriptures/engwebp_usfx.zip",
       "sha256": "dd2b4b99050b3470222182a1c140cc56bbae6842e2755e2a22aeed9a7f45206e"
+    },
+    {
+      "url": "https://ebible.org/Scriptures/cmn-cu89t_usfx.zip",
+      "sha256": "26568f1a3b8d877f9cb58614d855756b5751556599ff2c0efb933d12336eb3bb"
+    },
+    {
+      "url": "https://ebible.org/Scriptures/jpnm_usfx.zip",
+      "sha256": "8cb996482c96cef15d0985886b9603a586df87bbd0df15f29b1f20824476eff0"
     }
   ],
+  "translations": {
+    "en": "World English Bible",
+    "zh": "Chinese Union Version (traditional)",
+    "ja": "Japanese Freedom Bible — publisher draft"
+  },
   "coverage": {
     "books": 66,
     "chapters": 1189,
-    "verses": 31103,
-    "notes": 1571
+    "perLanguage": {
+      "en": {
+        "chapters": 1189,
+        "verseEntries": 31103,
+        "notes": 1571,
+        "headings": 138
+      },
+      "zh": {
+        "chapters": 1189,
+        "verseEntries": 31021,
+        "notes": 1013,
+        "headings": 2719
+      },
+      "ja": {
+        "chapters": 1189,
+        "verseEntries": 31103,
+        "notes": 1540,
+        "headings": 138
+      }
+    },
+    "numberingDifferences": [
+      {
+        "book": "MAT",
+        "chapter": 18,
+        "verses": [
+          11
+        ],
+        "languages": [
+          "ja",
+          "en"
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapter": 23,
+        "verses": [
+          14
+        ],
+        "languages": [
+          "ja",
+          "en"
+        ]
+      },
+      {
+        "book": "MRK",
+        "chapter": 7,
+        "verses": [
+          16
+        ],
+        "languages": [
+          "ja",
+          "en"
+        ]
+      },
+      {
+        "book": "MRK",
+        "chapter": 15,
+        "verses": [
+          28
+        ],
+        "languages": [
+          "ja",
+          "en"
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapter": 17,
+        "verses": [
+          36
+        ],
+        "languages": [
+          "ja",
+          "en"
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapter": 23,
+        "verses": [
+          17
+        ],
+        "languages": [
+          "ja",
+          "en"
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapter": 5,
+        "verses": [
+          4
+        ],
+        "languages": [
+          "ja",
+          "en"
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapter": 7,
+        "verses": [
+          53
+        ],
+        "languages": [
+          "ja",
+          "en"
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapter": 8,
+        "verses": [
+          37
+        ],
+        "languages": [
+          "ja",
+          "en"
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapter": 15,
+        "verses": [
+          34
+        ],
+        "languages": [
+          "ja",
+          "en"
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapter": 24,
+        "verses": [
+          7
+        ],
+        "languages": [
+          "ja",
+          "en"
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapter": 28,
+        "verses": [
+          29
+        ],
+        "languages": [
+          "ja",
+          "en"
+        ]
+      },
+      {
+        "book": "ROM",
+        "chapter": 14,
+        "verses": [
+          24
+        ],
+        "languages": [
+          "ja",
+          "en"
+        ]
+      },
+      {
+        "book": "ROM",
+        "chapter": 14,
+        "verses": [
+          25
+        ],
+        "languages": [
+          "ja",
+          "en"
+        ]
+      },
+      {
+        "book": "ROM",
+        "chapter": 14,
+        "verses": [
+          26
+        ],
+        "languages": [
+          "ja",
+          "en"
+        ]
+      },
+      {
+        "book": "ROM",
+        "chapter": 16,
+        "verses": [
+          26
+        ],
+        "languages": [
+          "zh"
+        ]
+      },
+      {
+        "book": "ROM",
+        "chapter": 16,
+        "verses": [
+          27
+        ],
+        "languages": [
+          "zh"
+        ]
+      },
+      {
+        "book": "3JN",
+        "chapter": 1,
+        "verses": [
+          15
+        ],
+        "languages": [
+          "zh"
+        ]
+      },
+      {
+        "book": "REV",
+        "chapter": 12,
+        "verses": [
+          18
+        ],
+        "languages": [
+          "zh"
+        ]
+      }
+    ]
   },
   "id": "bible",
   "status": "ship",
-  "edition": "original-only",
+  "edition": "multilingual",
   "langs": [
-    "en"
+    "en",
+    "zh",
+    "ja"
   ],
   "checked": "2026-09-30",
   "cover": {

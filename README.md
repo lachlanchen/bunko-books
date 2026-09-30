@@ -10,6 +10,8 @@
 
 This repository hosts 185 cleared editions as compact JSON chapters, with ruby readings and reviewed covers where available. Bunko downloads only the chapters a reader opens and caches them offline. The app lives in [Bunko](https://github.com/lachlanchen/Bunko); adding an approved book here does not require a new app build.
 
+Books may contain any number of language layers using standard language tags, including Arabic and other right-to-left scripts. Select the languages you want; matching passages stay together. Book languages and interface translations are independent.
+
 <p align="center"><a href="assets/classics-clean-2026-09-23.png"><img src="assets/classics-clean-2026-09-23.png" alt="Text-free illustrated cover" width="300"></a></p>
 
 ## Inside the library

@@ -10,6 +10,8 @@
 
 本仓库存放185种通过权利审核的版本，按小型JSON章节分发，并提供可用的注音与经检查的封面。 Bunko 按需下载读者打开的章节，无须一次下载整本书，并将已下载内容缓存于本机，方便没有网络时继续阅读。应用代码在 [Bunko](https://github.com/lachlanchen/Bunko)；在此添加审核通过的书籍，不必重新构建应用。
 
+书籍可使用标准语言标签包含任意数量的语言层，支持阿拉伯语等从右向左书写的文字。选择想看的语言，对应段落保持对齐。书籍语言与界面翻译彼此独立。
+
 <p align="center"><a href="../assets/classics-clean-2026-09-23.png"><img src="../assets/classics-clean-2026-09-23.png" alt="无文字插画封面" width="300"></a></p>
 
 ## 书库内容
@@ -23,6 +25,8 @@
 ## 发布与验证
 
 通过[书库管理页面](https://lachlan.lazying.art/Bunko/admin/)准备书籍拉取请求，或使用 Git 编辑 `books/<id>/`。请先阅读[发布指南](https://github.com/lachlanchen/Bunko/blob/main/docs/library-publishing.md)。工作流会检查每章与版权记录，合并后自动生成 `reader-index.json`；不要手动修改索引。
+
+每种书籍语言使用独立的标准标签，例如 ar、en、zh-Hant 或 fr-CA。发布前，验证器会核对元数据与权利记录中的语言集合，并逐章检查文本层、文件大小和校验和。注音与文字方向由阅读器按语言分别处理，下载后的章节仍可离线打开。
 
 ```sh
 python3 -m unittest discover -s tools -p 'test_*.py'

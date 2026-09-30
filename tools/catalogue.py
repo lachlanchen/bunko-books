@@ -10,7 +10,14 @@ import json
 import re
 from pathlib import Path
 
-LANGS = {"en", "zh", "ja", "wenyan", "zh_modern", "ja_modern"}
+LEGACY_LANGS = {"wenyan", "zh_modern", "ja_modern"}
+UNIT_FIELDS = {"src", "rich", "annotation"}
+
+
+def language_valid(value):
+    return isinstance(value, str) and value not in UNIT_FIELDS and (
+        value in LEGACY_LANGS or (len(value) <= 63 and re.fullmatch(r"[A-Za-z]{2,8}(?:-[A-Za-z0-9]{1,8})*", value)))
+
 SLUG = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 CHAPTER = re.compile(r"^c[0-9]+(?:p[0-9]+)?(?:-[a-f0-9]+)?\.json$")
 COVER = re.compile(r"^cover-[a-f0-9]+\.(?:webp|png|jpg)$")
@@ -46,7 +53,7 @@ def book_row(directory):
     meta = json.loads(raw)
     require(meta.get("schema") == 1 and meta.get("id") == slug, f"{slug}: invalid schema/id")
     langs = meta.get("langs", [])
-    require(langs and set(langs) <= LANGS and len(langs) == len(set(langs)), f"{slug}: invalid languages")
+    require(isinstance(langs, list) and langs and all(language_valid(lang) for lang in langs) and len(langs) == len(set(langs)), f"{slug}: invalid languages")
     require(set(langs) == set(rights.get("langs", [])), f"{slug}: languages exceed clearance")
     require(meta.get("primary") in langs and meta.get("titleText", {}).get(meta["primary"]), f"{slug}: missing title/primary")
     require(meta.get("chapters"), f"{slug}: no chapters")
@@ -76,7 +83,7 @@ def book_row(directory):
                 annotation = unit.get("annotation") is True and not unit.get("src", "").strip()
                 present = [lang for lang in langs if lang in unit]
                 require(present and (annotation or len(present) == len(langs)) and all(line_valid(unit[lang]) for lang in present), f"{slug}/{name}: missing/invalid text layer")
-                require(not (set(unit) & (LANGS - set(langs))), f"{slug}/{name}: uncleared extra language")
+                require(set(unit) <= set(langs) | UNIT_FIELDS, f"{slug}/{name}: uncleared extra language")
                 if unit.get("rich"):
                     require(set(unit["rich"]) <= set(langs) and all(
                         isinstance(part, list) and all(isinstance(item, dict) and

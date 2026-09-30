@@ -1,6 +1,8 @@
 {
-  "basis": "Translations redistributed with permission under QuranEnc.com Terms and Policies. These are credited publisher translations, not public-domain or generated translations. Full translation text, markers, footnotes, translator information and versions are preserved. Matching Chinese pinyin is an optional display aid; unaudited Japanese readings from the old export are not reused.",
+  "basis": "Arabic text: Tanzil Uthmani 1.1, CC BY 3.0 with verbatim reproduction terms; full text, basmalahs and source notice retained. Translations redistributed with permission under QuranEnc.com Terms and Policies. These are credited publisher translations, not public-domain or generated translations. Full translation text, markers, footnotes, translator information and versions are preserved. Matching Chinese pinyin is an optional display aid; unaudited Japanese readings from the old export are not reused.",
   "references": [
+    "https://tanzil.net",
+    "https://tanzil.net/docs/Text_License",
     "https://quranenc.com/en/home",
     "https://quranenc.com/en/home/api"
   ],
@@ -28,7 +30,13 @@
     }
   },
   "terms": "QuranEnc.com permits downloading and republication subject to its terms: preserve the contents without modification, addition or deletion; clearly credit the publisher and source; state the version; retain translation information; notify QuranEnc.com of translation concerns; update from the latest source version; and display no inappropriate advertisements. See https://quranenc.com/en/home/api .",
+  "arabicNotice": "# PLEASE DO NOT REMOVE OR CHANGE THIS COPYRIGHT BLOCK\n#====================================================================\n#\n#  Tanzil Quran Text (Uthmani, Version 1.1)\n#  Copyright (C) 2007-2026 Tanzil Project\n#  License: Creative Commons Attribution 3.0\n#\n#  This copy of the Quran text is carefully produced, highly \n#  verified and continuously monitored by a group of specialists \n#  at Tanzil Project.\n#\n#  TERMS OF USE:\n#\n#  - Permission is granted to copy and distribute verbatim copies \n#    of this text, but CHANGING IT IS NOT ALLOWED.\n#\n#  - This Quran text can be used in any website or application, \n#    provided that its source (Tanzil Project) is clearly indicated, \n#    and a link is made to tanzil.net to enable users to keep\n#    track of changes.\n#\n#  - This copyright notice shall be included in all verbatim copies \n#    of the text, and shall be reproduced appropriately in all files \n#    derived from or containing substantial portion of this text.\n#\n#  Please check updates at: http://tanzil.net/updates/\n#\n#====================================================================",
   "sourceFiles": [
+    {
+      "url": "https://tanzil.net/pub/download/index.php?quranType=uthmani&outType=txt-2&marks=true&sajdah=true&alef=true&tatweel=true&agree=true",
+      "sha256": "6933e133dd56db778c801bf738848454e43648105a151e8d84d86a7cae39ec5f",
+      "version": "1.1"
+    },
     {
       "url": "https://quranenc.com/downloads/sqlite/english_rwwad.sqlite",
       "sha256": "77e2ede3d8e6d6b5c6e16ff78eda2d2b6cc0a6b7489c94a5dde4f7481f5fdee8",
@@ -54,11 +62,12 @@
       "ja": 3484
     }
   },
-  "display": "English, Chinese and Japanese meanings; no Arabic layer. No advertisements.",
+  "display": "Arabic original (RTL), English, Chinese and Japanese meanings. Basmalahs retained verbatim in the Tanzil opening verses. No advertisements.",
   "id": "quran",
   "status": "ship",
   "edition": "multilingual",
   "langs": [
+    "ar",
     "en",
     "zh",
     "ja"
