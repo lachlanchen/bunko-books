@@ -8,7 +8,7 @@
 
 [![Reader](https://img.shields.io/badge/Open-Bunko-303F68?style=for-the-badge)](https://lachlan.lazying.art/Bunko/) [![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/lachlanchen)
 
-Dieses Repository enthält 185 freigegebene Ausgaben als kompakte JSON-Kapitel, mit Ruby-Lesungen und geprüften Covern, soweit verfügbar. Bunko lädt nur geöffnete Kapitel und speichert sie offline. Die App liegt in [Bunko](https://github.com/lachlanchen/Bunko); ein neues freigegebenes Buch benötigt keinen neuen App-Build.
+Dieses Repository enthält 186 freigegebene Ausgaben als kompakte JSON-Kapitel, mit Ruby-Lesungen und geprüften Covern, soweit verfügbar. Bunko lädt nur geöffnete Kapitel und speichert sie offline. Die App liegt in [Bunko](https://github.com/lachlanchen/Bunko); ein neues freigegebenes Buch benötigt keinen neuen App-Build.
 
 Bücher können beliebig viele Sprachebenen mit standardisierten Sprachkennungen enthalten, einschließlich Arabisch und anderer Schriften von rechts nach links. Wähle die gewünschten Sprachen; entsprechende Textstellen bleiben zusammen. Buchsprachen und Übersetzungen der Oberfläche sind unabhängig voneinander.
 
@@ -62,7 +62,7 @@ Wenn du Bunko Books für Forschung nutzt, zitiere dieses Repository. GitHub lies
 Fehlenden Text, falsche Metadaten, Cover-Probleme oder Rechtebedenken kannst du als [Buch-Issue](https://github.com/lachlanchen/bunko-books/issues/new) melden. Die dokumentierte Prüfung ist keine weltweite Rechtsbescheinigung.
 ## Bunko lesen
 
-Die Bibliothek enthält 185 freigegebene Ausgaben: Klassiker, Physik-Begleittexte, Lern- und Finanzbücher sowie mehrsprachige Reiseführer. Bücher können eine oder mehrere Sprachen haben; Formeln und Abbildungen bleiben im mobilen Reader erhalten.
+Die Bibliothek enthält 186 freigegebene Ausgaben: Klassiker, Physik-Begleittexte, Lern- und Finanzbücher sowie mehrsprachige Reiseführer. Bücher können eine oder mehrere Sprachen haben; Formeln und Abbildungen bleiben im mobilen Reader erhalten.
 
 [Apple App Store](https://apps.apple.com/app/id6815137919) · [Google Play · Veröffentlichung ausstehend](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)
 

@@ -8,7 +8,7 @@
 
 [![Reader](https://img.shields.io/badge/Open-Bunko-303F68?style=for-the-badge)](https://lachlan.lazying.art/Bunko/) [![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/lachlanchen)
 
-本仓库存放185种通过权利审核的版本，按小型JSON章节分发，并提供可用的注音与经检查的封面。 Bunko 按需下载读者打开的章节，无须一次下载整本书，并将已下载内容缓存于本机，方便没有网络时继续阅读。应用代码在 [Bunko](https://github.com/lachlanchen/Bunko)；在此添加审核通过的书籍，不必重新构建应用。
+本仓库存放186种通过权利审核的版本，按小型JSON章节分发，并提供可用的注音与经检查的封面。 Bunko 按需下载读者打开的章节，无须一次下载整本书，并将已下载内容缓存于本机，方便没有网络时继续阅读。应用代码在 [Bunko](https://github.com/lachlanchen/Bunko)；在此添加审核通过的书籍，不必重新构建应用。
 
 书籍可使用标准语言标签包含任意数量的语言层，支持阿拉伯语等从右向左书写的文字。选择想看的语言，对应段落保持对齐。书籍语言与界面翻译彼此独立。
 
@@ -64,7 +64,7 @@ Bunko Books 是 LazyingArt 的开放书库。你的支持有助于维护书目�
 如发现正文缺漏、元数据错误、封面问题或版权疑虑，请[提交书籍 issue](https://github.com/lachlanchen/bunko-books/issues/new)。审核记录并非全球通用的法律认证。
 ## 在 Bunko 阅读
 
-书库现有185种通过权利审核的版本，包括经典、物理学伴读笔记、学习与财经书籍，以及多语旅行指南。每本书可有一种或多种语言，公式和插图也能在手机上阅读。
+书库现有186种通过权利审核的版本，包括经典、物理学伴读笔记、学习与财经书籍，以及多语旅行指南。每本书可有一种或多种语言，公式和插图也能在手机上阅读。
 
 [Apple App Store](https://apps.apple.com/app/id6815137919) · [Google Play · 待上架](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)
 

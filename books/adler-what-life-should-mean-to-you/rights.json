@@ -1,0 +1,27 @@
+{
+  "status": "ship",
+  "edition": "multilingual",
+  "langs": [
+    "en",
+    "zh",
+    "ja"
+  ],
+  "basis": "Owner-confirmed redistribution clearance on 2026-10-10 for this complete English/Chinese/Japanese edition: 'I checked it’s ok to redistribute plz add it'. Published on that express confirmation, not a claim that the work is already public domain in every territory. Complete 250/250 chunks across 12 chapters; original renewal and source-edition notices remain documented in the preparation receipt.",
+  "references": [
+    "https://github.com/lachlanchen/Bunko/blob/test/rounded-icons-20261007/docs/adler-library-preparation-20261010.md",
+    "https://www.gutenberg.org/cache/epub/11819/pg11819.txt",
+    "https://www.copyright.gov/circs/circ15a.pdf"
+  ],
+  "checked": "2026-10-10",
+  "id": "adler-what-life-should-mean-to-you",
+  "sourceCoverage": {
+    "assembled_chunk_count": 250,
+    "total_chunk_count": 250,
+    "missing_chunk_count": 0,
+    "stale_chunk_count": 0
+  },
+  "cover": {
+    "textFree": true,
+    "basis": "Owner-supplied original artwork generated on 2026-10-10; reused textless background, visually checked, reduced to WebP for mobile delivery."
+  }
+}

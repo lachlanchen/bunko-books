@@ -8,7 +8,7 @@
 
 [![Reader](https://img.shields.io/badge/Open-Bunko-303F68?style=for-the-badge)](https://lachlan.lazying.art/Bunko/) [![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/lachlanchen)
 
-This repository hosts 185 cleared editions as compact JSON chapters, with ruby readings and reviewed covers where available. Bunko downloads only the chapters a reader opens and caches them offline. The app lives in [Bunko](https://github.com/lachlanchen/Bunko); adding an approved book here does not require a new app build.
+This repository hosts 186 cleared editions as compact JSON chapters, with ruby readings and reviewed covers where available. Bunko downloads only the chapters a reader opens and caches them offline. The app lives in [Bunko](https://github.com/lachlanchen/Bunko); adding an approved book here does not require a new app build.
 
 Books may contain any number of language layers using standard language tags, including Arabic and other right-to-left scripts. Select the languages you want; matching passages stay together. Book languages and interface translations are independent.
 
@@ -62,7 +62,7 @@ If you use Bunko Books in research, cite this repository. GitHub reads [CITATION
 To report missing text, a metadata error, a cover problem or a rights concern, [open a book issue](https://github.com/lachlanchen/bunko-books/issues/new). The catalogue audit is a documented review, not a worldwide legal certification.
 ## Read Bunko
 
-The library contains 185 cleared editions, including classics, physics companion notes, learning and finance books, and multilingual travel guides. Books may offer one or several languages; equations and figures remain readable on mobile.
+The library contains 186 cleared editions, including classics, physics companion notes, learning and finance books, and multilingual travel guides. Books may offer one or several languages; equations and figures remain readable on mobile.
 
 [Apple App Store](https://apps.apple.com/app/id6815137919) · [Google Play · publication pending](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)
 

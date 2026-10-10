@@ -8,7 +8,7 @@
 
 [![Reader](https://img.shields.io/badge/Open-Bunko-303F68?style=for-the-badge)](https://lachlan.lazying.art/Bunko/) [![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/lachlanchen)
 
-Ce dépôt héberge 185 éditions autorisées sous forme de chapitres JSON compacts, avec lectures ruby et couvertures vérifiées lorsqu’elles sont disponibles. Bunko ne télécharge que les chapitres ouverts et les garde hors ligne. L’application se trouve dans [Bunko](https://github.com/lachlanchen/Bunko) ; ajouter ici un livre approuvé ne demande pas de nouvelle version.
+Ce dépôt héberge 186 éditions autorisées sous forme de chapitres JSON compacts, avec lectures ruby et couvertures vérifiées lorsqu’elles sont disponibles. Bunko ne télécharge que les chapitres ouverts et les garde hors ligne. L’application se trouve dans [Bunko](https://github.com/lachlanchen/Bunko) ; ajouter ici un livre approuvé ne demande pas de nouvelle version.
 
 Les livres peuvent contenir autant de langues que nécessaire, identifiées par des balises standard, dont l’arabe et les écritures de droite à gauche. Choisissez les langues à afficher ; les passages correspondants restent ensemble. Les langues des livres sont indépendantes des traductions de l’interface.
 
@@ -62,7 +62,7 @@ Si vous utilisez Bunko Books dans une recherche, citez ce dépôt. GitHub lit [C
 Pour signaler un texte manquant, une erreur de métadonnées, de couverture ou de droits, [ouvrez un ticket](https://github.com/lachlanchen/bunko-books/issues/new). L’audit est documenté, mais ne vaut pas certification juridique mondiale.
 ## Lire dans Bunko
 
-La bibliothèque réunit 185 éditions autorisées : classiques, notes de physique, livres de formation et de finance, et guides de voyage multilingues. Les livres proposent une ou plusieurs langues ; les équations et illustrations restent lisibles sur mobile.
+La bibliothèque réunit 186 éditions autorisées : classiques, notes de physique, livres de formation et de finance, et guides de voyage multilingues. Les livres proposent une ou plusieurs langues ; les équations et illustrations restent lisibles sur mobile.
 
 [App Store d’Apple](https://apps.apple.com/app/id6815137919) · [Google Play · publication en attente](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)
 

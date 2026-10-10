@@ -8,7 +8,7 @@
 
 [![Reader](https://img.shields.io/badge/Open-Bunko-303F68?style=for-the-badge)](https://lachlan.lazying.art/Bunko/) [![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/lachlanchen)
 
-Kho này lưu 185 ấn bản đã được duyệt quyền dưới dạng các chương JSON gọn nhẹ, kèm cách đọc ruby và bìa đã kiểm tra khi có. Bunko chỉ tải các chương được mở rồi lưu để đọc ngoại tuyến. Ứng dụng ở kho [Bunko](https://github.com/lachlanchen/Bunko); thêm sách đã duyệt ở đây không cần tạo lại ứng dụng.
+Kho này lưu 186 ấn bản đã được duyệt quyền dưới dạng các chương JSON gọn nhẹ, kèm cách đọc ruby và bìa đã kiểm tra khi có. Bunko chỉ tải các chương được mở rồi lưu để đọc ngoại tuyến. Ứng dụng ở kho [Bunko](https://github.com/lachlanchen/Bunko); thêm sách đã duyệt ở đây không cần tạo lại ứng dụng.
 
 Sách có thể chứa số lượng ngôn ngữ tùy ý bằng thẻ ngôn ngữ chuẩn, gồm tiếng Ả Rập và các hệ chữ viết từ phải sang trái. Chọn những ngôn ngữ muốn xem; các đoạn tương ứng luôn đi cùng nhau. Ngôn ngữ của sách độc lập với bản dịch giao diện.
 
@@ -62,7 +62,7 @@ Nếu dùng Bunko Books trong nghiên cứu, hãy trích dẫn kho này. GitHub 
 Để báo thiếu nội dung, lỗi siêu dữ liệu, bìa hoặc vấn đề quyền, hãy [mở issue cho sách](https://github.com/lachlanchen/bunko-books/issues/new). Bản kiểm tra là hồ sơ minh bạch, không phải chứng nhận pháp lý toàn cầu.
 ## Đọc bằng Bunko
 
-Thư viện có 185 ấn bản đã được duyệt quyền, gồm tác phẩm kinh điển, ghi chú vật lý, sách học tập và tài chính, cùng cẩm nang du lịch đa ngôn ngữ. Sách có thể có một hoặc nhiều ngôn ngữ; công thức và hình ảnh vẫn hiển thị trên điện thoại.
+Thư viện có 186 ấn bản đã được duyệt quyền, gồm tác phẩm kinh điển, ghi chú vật lý, sách học tập và tài chính, cùng cẩm nang du lịch đa ngôn ngữ. Sách có thể có một hoặc nhiều ngôn ngữ; công thức và hình ảnh vẫn hiển thị trên điện thoại.
 
 [Apple App Store](https://apps.apple.com/app/id6815137919) · [Google Play · đang chờ phát hành](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)
 

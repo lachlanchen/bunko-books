@@ -8,7 +8,7 @@
 
 [![Reader](https://img.shields.io/badge/Open-Bunko-303F68?style=for-the-badge)](https://lachlan.lazying.art/Bunko/) [![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/lachlanchen)
 
-このリポジトリには権利を確認した185版を小さなJSON章として収め、利用可能なルビ情報と審査済みの表紙を添えています。 Bunko は開いた章だけを取得し、オフライン用に保存します。アプリ本体は [Bunko](https://github.com/lachlanchen/Bunko) にあり、承認済みの本を追加してもアプリの再ビルドは不要です。
+このリポジトリには権利を確認した186版を小さなJSON章として収め、利用可能なルビ情報と審査済みの表紙を添えています。 Bunko は開いた章だけを取得し、オフライン用に保存します。アプリ本体は [Bunko](https://github.com/lachlanchen/Bunko) にあり、承認済みの本を追加してもアプリの再ビルドは不要です。
 
 本には標準の言語タグを使って任意の数の言語を収録でき、アラビア語などの右から左へ書く言語にも対応します。表示する言語を選ぶと、対応する箇所をまとめて読めます。本の言語と画面表示の翻訳は独立しています。
 
@@ -62,7 +62,7 @@ Bunko Books は LazyingArt の公開書庫です。支援はカタログと読�
 本文の欠落、メタデータや表紙の誤り、権利上の懸念は [書籍の issue](https://github.com/lachlanchen/bunko-books/issues/new) で知らせてください。調査記録は世界共通の法的保証ではありません。
 ## Bunko で読む
 
-書庫には権利を確認した185版を収録しています。古典、物理学の伴読ノート、学習・金融の本、多言語の旅行ガイドを含みます。単言語・多言語に対応し、数式と図もモバイルで表示します。
+書庫には権利を確認した186版を収録しています。古典、物理学の伴読ノート、学習・金融の本、多言語の旅行ガイドを含みます。単言語・多言語に対応し、数式と図もモバイルで表示します。
 
 [Apple App Store](https://apps.apple.com/app/id6815137919) · [Google Play · 公開待ち](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)
 

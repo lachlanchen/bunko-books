@@ -8,7 +8,7 @@
 
 [![Reader](https://img.shields.io/badge/Open-Bunko-303F68?style=for-the-badge)](https://lachlan.lazying.art/Bunko/) [![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/lachlanchen)
 
-本儲存庫存放185種通過權利審核的版本，按小型JSON章節分發，並提供可用的注音與經檢查的封面。 Bunko 按需下載讀者開啟的章節，無須一次下載整本書，並將已下載內容快取於本機，方便沒有網路時繼續閱讀。應用程式程式碼在 [Bunko](https://github.com/lachlanchen/Bunko)；在此加入審核通過的書籍，不必重新建置應用程式。
+本儲存庫存放186種通過權利審核的版本，按小型JSON章節分發，並提供可用的注音與經檢查的封面。 Bunko 按需下載讀者開啟的章節，無須一次下載整本書，並將已下載內容快取於本機，方便沒有網路時繼續閱讀。應用程式程式碼在 [Bunko](https://github.com/lachlanchen/Bunko)；在此加入審核通過的書籍，不必重新建置應用程式。
 
 書籍可使用標準語言標籤包含任意數量的語言層，支援阿拉伯語等由右向左書寫的文字。選擇想看的語言，對應段落保持對齊。書籍語言與介面翻譯彼此獨立。
 
@@ -64,7 +64,7 @@ Bunko Books 是 LazyingArt 的開放書庫。你的支持有助於維護書目�
 如發現正文缺漏、元資料錯誤、封面問題或版權疑慮，請[提交書籍 issue](https://github.com/lachlanchen/bunko-books/issues/new)。審核紀錄並非全球通用的法律認證。
 ## 在 Bunko 閱讀
 
-書庫現有185種通過權利審核的版本，包括經典、物理學伴讀筆記、學習與財經書籍，以及多語旅行指南。每本書可有一種或多種語言，公式與插圖也能在手機上閱讀。
+書庫現有186種通過權利審核的版本，包括經典、物理學伴讀筆記、學習與財經書籍，以及多語旅行指南。每本書可有一種或多種語言，公式與插圖也能在手機上閱讀。
 
 [Apple App Store](https://apps.apple.com/app/id6815137919) · [Google Play · 待上架](https://play.google.com/store/apps/details?id=art.lazying.bunko) · [Web reader](https://lachlan.lazying.art/Bunko/)
 
