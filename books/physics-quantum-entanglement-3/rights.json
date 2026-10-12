@@ -1,15 +1,18 @@
 {
   "id": "physics-quantum-entanglement-3",
   "status": "ship",
-  "edition": "original-only",
+  "edition": "multilingual",
   "langs": [
-    "en"
+    "en",
+    "ja",
+    "zh"
   ],
-  "basis": "Independent edited AI-assisted companion notes by the owner, adapted from public lectures; not a transcript, Susskind manuscript or endorsed edition. Source repo GPL-3.0.",
+  "basis": "Independent edited AI-assisted companion notes by the owner, adapted from public lectures; not a transcript, Susskind manuscript or endorsed edition. Source repo GPL-3.0. Japanese and Simplified Chinese are complete AI-assisted translations of the final edited TeX, with deterministic protection and sampled semantic review. Figures retain source labels.",
   "references": [
-    "https://github.com/lachlanchen/leonardsusskind/tree/main/generated_course_notes/supplementary/quantum_entanglement/2006_fall_part_3"
+    "https://github.com/lachlanchen/leonardsusskind/tree/main/generated_course_notes/supplementary/quantum_entanglement/2006_fall_part_3",
+    "https://github.com/lachlanchen/leonardsusskind/tree/main/translations/supplementary--quantum_entanglement--2006_fall_part_3"
   ],
-  "checked": "2026-09-25",
+  "checked": "2026-10-12",
   "cover": {
     "textFree": false,
     "originalDesign": true,

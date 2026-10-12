@@ -1,15 +1,18 @@
 {
   "id": "physics-cosmology-and-black-holes",
   "status": "ship",
-  "edition": "original-only",
+  "edition": "multilingual",
   "langs": [
-    "en"
+    "en",
+    "ja",
+    "zh"
   ],
-  "basis": "Independent edited AI-assisted companion notes by the owner, adapted from public lectures; not a transcript, Susskind manuscript or endorsed edition. Source repo GPL-3.0.",
+  "basis": "Independent edited AI-assisted companion notes by the owner, adapted from public lectures; not a transcript, Susskind manuscript or endorsed edition. Source repo GPL-3.0. Japanese and Simplified Chinese are complete AI-assisted translations of the final edited TeX, with deterministic protection and sampled semantic review. Figures retain source labels.",
   "references": [
-    "https://github.com/lachlanchen/leonardsusskind/tree/main/generated_course_notes/supplementary/cosmology_and_black_holes/2011_winter_topics_in_string_theory"
+    "https://github.com/lachlanchen/leonardsusskind/tree/main/generated_course_notes/supplementary/cosmology_and_black_holes/2011_winter_topics_in_string_theory",
+    "https://github.com/lachlanchen/leonardsusskind/tree/main/translations/supplementary--cosmology_and_black_holes--2011_winter_topics_in_string_theory"
   ],
-  "checked": "2026-09-25",
+  "checked": "2026-10-12",
   "cover": {
     "textFree": false,
     "originalDesign": true,

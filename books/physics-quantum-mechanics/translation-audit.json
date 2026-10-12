@@ -1,0 +1,90 @@
+{
+  "id": "physics-quantum-mechanics",
+  "sourceEdition": "core--quantum_mechanics--2012_winter_theoretical_minimum_alt_title",
+  "languages": [
+    "en",
+    "ja",
+    "zh"
+  ],
+  "mathExpressionsChecked": 4257,
+  "chapters": [
+    {
+      "source": "chapters/lecture_01/content.tex",
+      "paragraphs": 131,
+      "figures": 9,
+      "retainedPassageIds": 44
+    },
+    {
+      "source": "chapters/lecture_02/content.tex",
+      "paragraphs": 119,
+      "figures": 8,
+      "retainedPassageIds": 28
+    },
+    {
+      "source": "chapters/lecture_03/content.tex",
+      "paragraphs": 106,
+      "figures": 9,
+      "retainedPassageIds": 35
+    },
+    {
+      "source": "chapters/lecture_04/content.tex",
+      "paragraphs": 116,
+      "figures": 9,
+      "retainedPassageIds": 23
+    },
+    {
+      "source": "chapters/lecture_05/content.tex",
+      "paragraphs": 110,
+      "figures": 10,
+      "retainedPassageIds": 22
+    },
+    {
+      "source": "chapters/lecture_06/content.tex",
+      "paragraphs": 102,
+      "figures": 10,
+      "retainedPassageIds": 17
+    },
+    {
+      "source": "chapters/lecture_07/content.tex",
+      "paragraphs": 160,
+      "figures": 10,
+      "retainedPassageIds": 30
+    },
+    {
+      "source": "chapters/lecture_08/content.tex",
+      "paragraphs": 133,
+      "figures": 13,
+      "retainedPassageIds": 28
+    },
+    {
+      "source": "chapters/lecture_09/content.tex",
+      "paragraphs": 113,
+      "figures": 13,
+      "retainedPassageIds": 21
+    },
+    {
+      "source": "chapters/lecture_10/content.tex",
+      "paragraphs": 108,
+      "figures": 15,
+      "retainedPassageIds": 22
+    }
+  ],
+  "sourceHashes": {
+    "course.tex": "df6f5753a0ab7f1f58a4f198432b0cc3796b75db0a29193b53580f802e0a96dc",
+    "common_preamble.tex": "7230adaa2c872f88056a832b9a230eaf89d97409c06df43c5abd3be7bb7c6e6d",
+    "chapters/lecture_01/content.tex": "8dc09a7517c41da128fe945bc4cfc1ef7ed54138d5dfaf17d9e0b496a759dcb4",
+    "chapters/lecture_02/content.tex": "72e96ef855eff78df791e1f4679647598f6100baa4126cc8dcfdbdef82bdace9",
+    "chapters/lecture_03/content.tex": "b0713e0d39b96ec2d8c54e9441632474db323d156159dc446a3c4c7559cf9814",
+    "chapters/lecture_04/content.tex": "0733e147695c503ee1ed06d81250186d1746c539af24ba3f3885864bc3729918",
+    "chapters/lecture_05/content.tex": "27a466abb218f10eac8e4f0c7086897ccb49eba01c6e1885a11c28c551dbfa88",
+    "chapters/lecture_06/content.tex": "8bca9d68c6ad09c067faec2442499246392af6c857db71da57565a4ad1feab0c",
+    "chapters/lecture_07/content.tex": "7a1644e4e85adcc8fbb15a2c152260cade429a3aedc3c624fddcf7833b97f5ce",
+    "chapters/lecture_08/content.tex": "68f122a8dad7ed1c9cc36bfa01a79bcaaad9f7cd7352b2541d80bb5c8d9c378e",
+    "chapters/lecture_09/content.tex": "12739d8d8e59eaf805ea509eddd7264440c69640aa861337b67c63c564ef83e1",
+    "chapters/lecture_10/content.tex": "0768f7039bf636b860d1440351ab82a4eec48e2378f778e19cfdb46235ec5217"
+  },
+  "translationQuality": {
+    "ja": "a86f1dd5221c511e50cadae985ca4511982ec7fb65d6f21591fbf5c96101d61b",
+    "zh": "5fd73201ca8f100ed2eb9cfdad470cb5fdbc420da9065e6e79388d5cbeca3dd9"
+  }
+}

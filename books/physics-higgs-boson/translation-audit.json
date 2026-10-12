@@ -1,0 +1,27 @@
+{
+  "id": "physics-higgs-boson",
+  "sourceEdition": "supplementary--higgs_boson--2012_summer",
+  "languages": [
+    "en",
+    "ja",
+    "zh"
+  ],
+  "mathExpressionsChecked": 246,
+  "chapters": [
+    {
+      "source": "chapters/lecture_01/content.tex",
+      "paragraphs": 114,
+      "figures": 13,
+      "retainedPassageIds": 0
+    }
+  ],
+  "sourceHashes": {
+    "course.tex": "8618bd1a9d6c91833ba00f7be31dcb20fcc6727f03cd9160273f418737e819fd",
+    "common_preamble.tex": "0387bc086d996b84dfd6d74a7d18b55fb756b03aff19f43f899e7448b3a0963c",
+    "chapters/lecture_01/content.tex": "0dce2f6c0fcca244ee59848cdffaf66f43d412a86a2f3e89cf16984c5f46430c"
+  },
+  "translationQuality": {
+    "ja": "28979fe77ee4e71606d52089e991a460cde05674c560db656b41884d5ac51249",
+    "zh": "3cc20a5dfe4165be7f9292459e9628c8e84b82b803f6d73e94729400942e256f"
+  }
+}

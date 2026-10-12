@@ -1,0 +1,90 @@
+{
+  "id": "physics-string-theory-and-m-theory",
+  "sourceEdition": "supplementary--string_theory--2010_fall_string_theory_and_m_theory",
+  "languages": [
+    "en",
+    "ja",
+    "zh"
+  ],
+  "mathExpressionsChecked": 3462,
+  "chapters": [
+    {
+      "source": "chapters/lecture_01/content.tex",
+      "paragraphs": 177,
+      "figures": 23,
+      "retainedPassageIds": 65
+    },
+    {
+      "source": "chapters/lecture_02/content.tex",
+      "paragraphs": 231,
+      "figures": 29,
+      "retainedPassageIds": 102
+    },
+    {
+      "source": "chapters/lecture_03/content.tex",
+      "paragraphs": 211,
+      "figures": 28,
+      "retainedPassageIds": 82
+    },
+    {
+      "source": "chapters/lecture_04/content.tex",
+      "paragraphs": 113,
+      "figures": 16,
+      "retainedPassageIds": 37
+    },
+    {
+      "source": "chapters/lecture_05/content.tex",
+      "paragraphs": 130,
+      "figures": 19,
+      "retainedPassageIds": 35
+    },
+    {
+      "source": "chapters/lecture_06/content.tex",
+      "paragraphs": 88,
+      "figures": 14,
+      "retainedPassageIds": 14
+    },
+    {
+      "source": "chapters/lecture_07/content.tex",
+      "paragraphs": 84,
+      "figures": 16,
+      "retainedPassageIds": 15
+    },
+    {
+      "source": "chapters/lecture_08/content.tex",
+      "paragraphs": 136,
+      "figures": 18,
+      "retainedPassageIds": 22
+    },
+    {
+      "source": "chapters/lecture_09/content.tex",
+      "paragraphs": 130,
+      "figures": 23,
+      "retainedPassageIds": 35
+    },
+    {
+      "source": "chapters/lecture_10/content.tex",
+      "paragraphs": 165,
+      "figures": 27,
+      "retainedPassageIds": 42
+    }
+  ],
+  "sourceHashes": {
+    "course.tex": "3c2aac6313fc893cf20a605a6c663dfbcb338d2c0ae2334dc128133f758cf0ea",
+    "common_preamble.tex": "e0e154562b603ec4718f48629c70818b2a8f3494074630fff47fb530f39f7b52",
+    "chapters/lecture_01/content.tex": "c35ec8c6e2057da8a8177c62ba775b1add4bdd4374b30d2a0f2ccfda9122512c",
+    "chapters/lecture_02/content.tex": "4b4fb064a6f50dbb737daee24a2a4ceac586eb6b4184ae53caf529e92cf98d41",
+    "chapters/lecture_03/content.tex": "0ab3386a29887229d417b296d92fa5fbc9170dd585a0f9962912b29d8c88aa5c",
+    "chapters/lecture_04/content.tex": "d5c5e04c004fc0eccd91ac8ba41da0da4694e5a3424b34e5efa47bbf6f36a0ae",
+    "chapters/lecture_05/content.tex": "c6895fcea77b026c2060b164d575052c7d4416f0330dc976206e5d42b041eefa",
+    "chapters/lecture_06/content.tex": "a1dc323c4cc47aed1c5829af012a259b6175918b02437ca71944c41498f0778f",
+    "chapters/lecture_07/content.tex": "1556e07fc4c80fb821d9dcfd5e55909be8581386c92b49582e2c1528de9bc3ba",
+    "chapters/lecture_08/content.tex": "4eba7941c6455e9f331ded4c9ac665b2ea1e4a2b9c36ee4dd1c2648d8664b301",
+    "chapters/lecture_09/content.tex": "edce49458e149572f4b28bd588ef97e8facb7d7e93f41e0eab1a94dc1d478313",
+    "chapters/lecture_10/content.tex": "35c0eeef265ad73ed92613daf75bf70b86e9901d32d534b8955dd075b6a5b425"
+  },
+  "translationQuality": {
+    "ja": "4dbe7b9962d9b9a3e0070367dc7ae30202b1a661c07a20a6a624d4a266105cdb",
+    "zh": "1e05551bacf7edda98f5fd99b23737ea0c660766093fbd110b3eaff2b5f7c423"
+  }
+}

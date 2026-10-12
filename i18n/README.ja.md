@@ -4,6 +4,12 @@
 
 # Bunko Books
 
+<!-- polished-physics:start -->
+最終推敲済みの物理講義補助書16冊に、対応する**English・日本語・中文**の本文を収録しました。数式、表、図、導入段落を保持しています。Bunkoで言語を選ぶと更新済みの章を取得でき、アプリの再インストールは不要です。AI支援によるコミュニティ版であり、原講師が公認した翻訳ではありません。
+
+[English · 日本語 · 中文](https://github.com/lachlanchen/leonardsusskind#read-in-english-japanese-and-chinese)
+<!-- polished-physics:end -->
+
 *Bunko を支える、ダウンロード可能な公開書庫。*
 
 [![Reader](https://img.shields.io/badge/Open-Bunko-303F68?style=for-the-badge)](https://lachlan.lazying.art/Bunko/) [![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/lachlanchen)

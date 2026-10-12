@@ -4,6 +4,12 @@
 
 # Bunko Books
 
+<!-- polished-physics:start -->
+최종 교정된 물리학 강의 보조서 16권에 정렬된 **English·日本語·中文** 본문을 제공합니다. 수식, 표, 그림과 도입 단락을 보존했습니다. Bunko에서 언어를 선택하면 재설치 없이 갱신된 장을 받을 수 있습니다. AI 지원 커뮤니티 판본이며 강사가 공인한 번역은 아닙니다.
+
+[English · 日本語 · 中文](https://github.com/lachlanchen/leonardsusskind#read-in-english-japanese-and-chinese)
+<!-- polished-physics:end -->
+
 *Bunko를 위한 다운로드 가능한 공개 도서관.*
 
 [![Reader](https://img.shields.io/badge/Open-Bunko-303F68?style=for-the-badge)](https://lachlan.lazying.art/Bunko/) [![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/lachlanchen)

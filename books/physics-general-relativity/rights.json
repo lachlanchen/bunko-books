@@ -1,15 +1,18 @@
 {
   "id": "physics-general-relativity",
   "status": "ship",
-  "edition": "original-only",
+  "edition": "multilingual",
   "langs": [
-    "en"
+    "en",
+    "ja",
+    "zh"
   ],
-  "basis": "Independent edited AI-assisted companion notes by the owner, adapted from public lectures; not a transcript, Susskind manuscript or endorsed edition. Original source repo is GPL-3.0; preserve attribution and GPL terms.",
+  "basis": "Independent edited AI-assisted companion notes by the owner, adapted from public lectures; not a transcript, Susskind manuscript or endorsed edition. Original source repo is GPL-3.0; preserve attribution and GPL terms. Japanese and Simplified Chinese are complete AI-assisted translations of the final edited TeX, with deterministic protection and sampled semantic review. Figures retain source labels.",
   "references": [
-    "https://github.com/lachlanchen/leonardsusskind/tree/main/generated_course_notes/core/general_relativity/2012_fall_theoretical_minimum"
+    "https://github.com/lachlanchen/leonardsusskind/tree/main/generated_course_notes/core/general_relativity/2012_fall_theoretical_minimum",
+    "https://github.com/lachlanchen/leonardsusskind/tree/main/translations/core--general_relativity--2012_fall_theoretical_minimum"
   ],
-  "checked": "2026-09-25",
+  "checked": "2026-10-12",
   "cover": {
     "textFree": false,
     "originalDesign": true,

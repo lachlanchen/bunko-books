@@ -4,6 +4,12 @@
 
 # Bunko Books
 
+<!-- polished-physics:start -->
+Mười sáu sách đồng hành vật lý đã hiệu đính có văn bản đối chiếu **English, 日本語 và 中文**. Giữ nguyên công thức, bảng, hình và đoạn dẫn nhập. Chọn ngôn ngữ trong Bunko để tải chương cập nhật mà không cần cài lại ứng dụng. Đây là bản cộng đồng có AI hỗ trợ, không phải bản dịch được giảng viên phê duyệt.
+
+[English · 日本語 · 中文](https://github.com/lachlanchen/leonardsusskind#read-in-english-japanese-and-chinese)
+<!-- polished-physics:end -->
+
 *Thư viện mở có thể tải xuống dành cho Bunko.*
 
 [![Reader](https://img.shields.io/badge/Open-Bunko-303F68?style=for-the-badge)](https://lachlan.lazying.art/Bunko/) [![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/lachlanchen)

@@ -1,0 +1,90 @@
+{
+  "id": "physics-advanced-quantum-mechanics",
+  "sourceEdition": "supplementary--advanced_quantum_mechanics--2013_fall",
+  "languages": [
+    "en",
+    "ja",
+    "zh"
+  ],
+  "mathExpressionsChecked": 4764,
+  "chapters": [
+    {
+      "source": "chapters/lecture_01/content.tex",
+      "paragraphs": 82,
+      "figures": 1,
+      "retainedPassageIds": 19
+    },
+    {
+      "source": "chapters/lecture_02/content.tex",
+      "paragraphs": 82,
+      "figures": 0,
+      "retainedPassageIds": 21
+    },
+    {
+      "source": "chapters/lecture_03/content.tex",
+      "paragraphs": 97,
+      "figures": 3,
+      "retainedPassageIds": 18
+    },
+    {
+      "source": "chapters/lecture_04/content.tex",
+      "paragraphs": 103,
+      "figures": 2,
+      "retainedPassageIds": 33
+    },
+    {
+      "source": "chapters/lecture_05/content.tex",
+      "paragraphs": 111,
+      "figures": 1,
+      "retainedPassageIds": 28
+    },
+    {
+      "source": "chapters/lecture_06/content.tex",
+      "paragraphs": 116,
+      "figures": 4,
+      "retainedPassageIds": 26
+    },
+    {
+      "source": "chapters/lecture_07/content.tex",
+      "paragraphs": 113,
+      "figures": 4,
+      "retainedPassageIds": 28
+    },
+    {
+      "source": "chapters/lecture_08/content.tex",
+      "paragraphs": 132,
+      "figures": 8,
+      "retainedPassageIds": 40
+    },
+    {
+      "source": "chapters/lecture_09/content.tex",
+      "paragraphs": 120,
+      "figures": 8,
+      "retainedPassageIds": 22
+    },
+    {
+      "source": "chapters/lecture_10/content.tex",
+      "paragraphs": 124,
+      "figures": 10,
+      "retainedPassageIds": 29
+    }
+  ],
+  "sourceHashes": {
+    "course.tex": "d58bb3f69211b31b94919d1a41e524b4af9de88d1b1334dc12e7efa53668303a",
+    "common_preamble.tex": "b03947a1d8477e6412901a7054be843e4caa185bdae595d51223499a07ef4f1c",
+    "chapters/lecture_01/content.tex": "9632cee3ce8976415efa95e276722c45ca6639eade3cf93e9d960b0dce166b8a",
+    "chapters/lecture_02/content.tex": "b5020b9958489a629a4fcb522d7743f570e69629c1aa66052cfacfa88891a905",
+    "chapters/lecture_03/content.tex": "485886be9be484864095bf89b0e5bb1480972917dab77a4b89a7853d1df84dd0",
+    "chapters/lecture_04/content.tex": "54d393bf64b5ee9209d7a83abf1816aa944e92662a04a51f5296577183427ff8",
+    "chapters/lecture_05/content.tex": "258ab664f6039e516c4bc491e68bdd12f6c225f873a286c59becd620097d8db8",
+    "chapters/lecture_06/content.tex": "b1752e6022b00475301fa133037119e8505ba2cf72428e6050a79784e59a35eb",
+    "chapters/lecture_07/content.tex": "6a9f1329d0a8dc3457d12b846f2478ecd3663b810e15e6eeafa07291e2a3bd59",
+    "chapters/lecture_08/content.tex": "da8a6c82a52da487d6faa1d2349fc44713aaf0cf3cb9446d88904e1088e9afa4",
+    "chapters/lecture_09/content.tex": "8728c9dee526cdad49d6bca9bd43be64c22a078bfd0c7bd3e997402ce5b49b99",
+    "chapters/lecture_10/content.tex": "254a6b5db5dd47088d4789a59e3a0b4d53e0936c6157eaa66534b278ce8440de"
+  },
+  "translationQuality": {
+    "ja": "52cd6d9d0e4c4e52f9595aa0be606b6705ab89db4090b2357974c3ab28eb333a",
+    "zh": "4961e4144637481d6a5f871c00d5baad12f5b97ca7aa265881af27dc3f54bced"
+  }
+}

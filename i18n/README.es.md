@@ -4,6 +4,12 @@
 
 # Bunko Books
 
+<!-- polished-physics:start -->
+Dieciséis libros complementarios de física revisados ofrecen textos alineados en **English, 日本語 y 中文**. Se conservan ecuaciones, tablas, figuras e introducciones. Selecciona idiomas en Bunko para descargar los capítulos actualizados sin reinstalar la aplicación. Son ediciones comunitarias asistidas por IA, no traducciones avaladas por el profesor.
+
+[English · 日本語 · 中文](https://github.com/lachlanchen/leonardsusskind#read-in-english-japanese-and-chinese)
+<!-- polished-physics:end -->
+
 *La biblioteca abierta y descargable de Bunko.*
 
 [![Reader](https://img.shields.io/badge/Open-Bunko-303F68?style=for-the-badge)](https://lachlan.lazying.art/Bunko/) [![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/lachlanchen)

@@ -4,6 +4,12 @@
 
 # Bunko Books
 
+<!-- polished-physics:start -->
+Sixteen final polished physics companion books now include aligned **English, 日本語 and 中文**. Equations, tables, figures and introductory paragraphs are retained. Select the languages in Bunko; the app downloads the updated chapters without a new installation. These are AI-assisted community editions, not lecturer-endorsed translations.
+
+[English · 日本語 · 中文](https://github.com/lachlanchen/leonardsusskind#read-in-english-japanese-and-chinese)
+<!-- polished-physics:end -->
+
 *The open, downloadable library behind Bunko.*
 
 [![Reader](https://img.shields.io/badge/Open-Bunko-303F68?style=for-the-badge)](https://lachlan.lazying.art/Bunko/) [![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/lachlanchen)

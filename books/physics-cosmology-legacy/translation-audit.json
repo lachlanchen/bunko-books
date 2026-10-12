@@ -1,0 +1,76 @@
+{
+  "id": "physics-cosmology-legacy",
+  "sourceEdition": "core--cosmology--2009_winter_legacy_cosmology",
+  "languages": [
+    "en",
+    "ja",
+    "zh"
+  ],
+  "mathExpressionsChecked": 2058,
+  "chapters": [
+    {
+      "source": "chapters/lecture_01/content.tex",
+      "paragraphs": 71,
+      "figures": 2,
+      "retainedPassageIds": 24
+    },
+    {
+      "source": "chapters/lecture_02/content.tex",
+      "paragraphs": 100,
+      "figures": 5,
+      "retainedPassageIds": 34
+    },
+    {
+      "source": "chapters/lecture_03/content.tex",
+      "paragraphs": 65,
+      "figures": 3,
+      "retainedPassageIds": 21
+    },
+    {
+      "source": "chapters/lecture_04/content.tex",
+      "paragraphs": 94,
+      "figures": 4,
+      "retainedPassageIds": 34
+    },
+    {
+      "source": "chapters/lecture_05/content.tex",
+      "paragraphs": 99,
+      "figures": 2,
+      "retainedPassageIds": 35
+    },
+    {
+      "source": "chapters/lecture_06/content.tex",
+      "paragraphs": 70,
+      "figures": 2,
+      "retainedPassageIds": 38
+    },
+    {
+      "source": "chapters/lecture_07/content.tex",
+      "paragraphs": 86,
+      "figures": 3,
+      "retainedPassageIds": 32
+    },
+    {
+      "source": "chapters/lecture_08/content.tex",
+      "paragraphs": 79,
+      "figures": 2,
+      "retainedPassageIds": 26
+    }
+  ],
+  "sourceHashes": {
+    "course.tex": "125f23300b0aa5ca9c8f62f287196c91c5507e57113eab240bf01314f0443590",
+    "common_preamble.tex": "6fd30b9ea7d9cc069be8e4914c1fff00ba4579520736c97dd95ec8c2b42e6f7a",
+    "chapters/lecture_01/content.tex": "1c63865a8e8dac48d954d141bb0a84e406b3dc9485e5bd2494ce4b210419cee9",
+    "chapters/lecture_02/content.tex": "0f0971315044d58fb2c963343b10bd268c0560cb5aee03246c7adadb5d76ca00",
+    "chapters/lecture_03/content.tex": "cde02436e73a4adc4082eb3fe6dfc1d8a7ba4dfd4d85870f15c1d2a6cd0912a1",
+    "chapters/lecture_04/content.tex": "538242039f9c58bbfd06c37b1c7ec7ba5924604460697a3716ff627a8667b161",
+    "chapters/lecture_05/content.tex": "40140c7b4050146d4c248e3f72450e0154c5be4321e73b642eaf0ee1902e9230",
+    "chapters/lecture_06/content.tex": "15c4fc4f3c00e4f19c7d6966145cac4ac105abc7334e9299bfaa851b26bdc088",
+    "chapters/lecture_07/content.tex": "b199a74d64d7cd138bc33966780c72f9be462573aa42959b2f390ec56d79f3e8",
+    "chapters/lecture_08/content.tex": "9f9795054cf068dbae683402a91dda0fa52ece4daa006d29eef91409c1561290"
+  },
+  "translationQuality": {
+    "ja": "b9512b7340657278cca7e9529953532015dff82a1222d1dccbf928369e447af8",
+    "zh": "2be0a95df331474fdc5afc39b4285fd285837bc7e4e5980a99a789d345b8728e"
+  }
+}

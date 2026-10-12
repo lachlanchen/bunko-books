@@ -1,0 +1,76 @@
+{
+  "id": "physics-quantum-entanglement-3",
+  "sourceEdition": "supplementary--quantum_entanglement--2006_fall_part_3",
+  "languages": [
+    "en",
+    "ja",
+    "zh"
+  ],
+  "mathExpressionsChecked": 3234,
+  "chapters": [
+    {
+      "source": "chapters/lecture_01/content.tex",
+      "paragraphs": 103,
+      "figures": 9,
+      "retainedPassageIds": 36
+    },
+    {
+      "source": "chapters/lecture_02_03/content.tex",
+      "paragraphs": 87,
+      "figures": 13,
+      "retainedPassageIds": 22
+    },
+    {
+      "source": "chapters/lecture_04/content.tex",
+      "paragraphs": 95,
+      "figures": 17,
+      "retainedPassageIds": 22
+    },
+    {
+      "source": "chapters/lecture_05/content.tex",
+      "paragraphs": 96,
+      "figures": 8,
+      "retainedPassageIds": 26
+    },
+    {
+      "source": "chapters/lecture_06/content.tex",
+      "paragraphs": 111,
+      "figures": 10,
+      "retainedPassageIds": 21
+    },
+    {
+      "source": "chapters/lecture_07/content.tex",
+      "paragraphs": 94,
+      "figures": 15,
+      "retainedPassageIds": 15
+    },
+    {
+      "source": "chapters/lecture_08/content.tex",
+      "paragraphs": 121,
+      "figures": 19,
+      "retainedPassageIds": 23
+    },
+    {
+      "source": "chapters/lecture_09/content.tex",
+      "paragraphs": 109,
+      "figures": 23,
+      "retainedPassageIds": 29
+    }
+  ],
+  "sourceHashes": {
+    "course.tex": "356d8ce3183a4c7413b9c336e9a2d8bd28af68d0f32fc281411dd6137903070b",
+    "common_preamble.tex": "7230adaa2c872f88056a832b9a230eaf89d97409c06df43c5abd3be7bb7c6e6d",
+    "chapters/lecture_01/content.tex": "8901a5e94b79043b8683ae3c07a6714b79847789e5762c48cd72e9d9f36d025a",
+    "chapters/lecture_02_03/content.tex": "d5f4018fc88275e090e6b4773153254fd7bbd28504c004b454fb444d72fb2f3f",
+    "chapters/lecture_04/content.tex": "b79226daad0aa91b17e4b2afe6d6e4b98fc52396be779aab36de42d64582b3ab",
+    "chapters/lecture_05/content.tex": "3e7b4248a1a92ec5b0838f3fcbd1c70b542ad61307daf8cff5face134ee911b3",
+    "chapters/lecture_06/content.tex": "ed6739fc900e1b83e609422bcf5a0246a4429759b0de1ebc104649c101391284",
+    "chapters/lecture_07/content.tex": "42d787980d2bd997c18034f22e260e9db3610b2b44586bcd1d5557ab67b90c95",
+    "chapters/lecture_08/content.tex": "57e52781307495b368457421b6d78cc41a563bc01a566b789fd9200862518709",
+    "chapters/lecture_09/content.tex": "a2e052c366902368f82b9b8cc60ec34b86f8d7451d0adc06a04c22b71778c74f"
+  },
+  "translationQuality": {
+    "ja": "db1c499e4a1b114511be0e776b88f5a447194688007d8c1e9a7120d31ddc23be",
+    "zh": "98c8cbbd5a09c4787dd94e505d641ab2bc1c64ff4da95183b5c03462c0600e53"
+  }
+}

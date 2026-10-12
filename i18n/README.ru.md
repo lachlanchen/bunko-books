@@ -4,6 +4,12 @@
 
 # Bunko Books
 
+<!-- polished-physics:start -->
+Шестнадцать отредактированных пособий по физике теперь содержат выровненные тексты на **English, 日本語 и 中文**. Сохранены формулы, таблицы, рисунки и вводные абзацы. Выберите языки в Bunko: главы обновляются без переустановки. Это издания сообщества с помощью ИИ, не переводы, одобренные лектором.
+
+[English · 日本語 · 中文](https://github.com/lachlanchen/leonardsusskind#read-in-english-japanese-and-chinese)
+<!-- polished-physics:end -->
+
 *Открытая загружаемая библиотека для Bunko.*
 
 [![Reader](https://img.shields.io/badge/Open-Bunko-303F68?style=for-the-badge)](https://lachlan.lazying.art/Bunko/) [![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/lachlanchen)
