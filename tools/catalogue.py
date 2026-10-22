@@ -8,6 +8,7 @@ import argparse
 import hashlib
 import json
 import re
+from datetime import datetime, timezone
 from pathlib import Path
 
 LEGACY_LANGS = {"wenyan", "zh_modern", "ja_modern"}
@@ -108,12 +109,19 @@ def book_row(directory):
     return row
 
 
-def build_index(root):
+def build_index(root, new_added_at=None):
+    target = root / "reader-index.json"
+    prior = {row["id"]: row.get("addedAt") for row in json.loads(target.read_text())["books"]} if target.exists() else {}
     books = []
     for directory in sorted((root / "books").iterdir()):
         require(directory.is_dir() and not directory.is_symlink(), "Only book directories allowed")
         row = book_row(directory)
         if row:
+            added_at = prior.get(row["id"]) or new_added_at
+            if added_at:
+                require(isinstance(added_at, str) and re.fullmatch(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:Z|[+-]\d{2}:\d{2})", added_at), f"{row['id']}: invalid publication date")
+                datetime.fromisoformat(added_at.replace('Z', '+00:00'))
+                row["addedAt"] = added_at
             books.append(row)
     return {"schema": 1, "books": books, "bytes": sum(b["bytes"] for b in books), "count": len(books)}
 
@@ -123,7 +131,7 @@ def main():
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--write", action="store_true")
     args = parser.parse_args()
-    index = build_index(args.root)
+    index = build_index(args.root, datetime.now(timezone.utc).isoformat(timespec='seconds') if args.write else None)
     target = args.root / "reader-index.json"
     if args.write:
         temporary = target.with_suffix(".tmp")

@@ -3,7 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from catalogue import book_row
+from catalogue import book_row, build_index
 
 
 class PublicationGate(unittest.TestCase):
@@ -29,6 +29,17 @@ class PublicationGate(unittest.TestCase):
     def test_complete_edition_publishes(self):
         self.write()
         self.assertEqual(book_row(self.root)["paras"], 1)
+
+    def test_publication_date_survives_refresh(self):
+        self.write()
+        library = Path(self.temp.name) / 'library'
+        (library / 'books').mkdir(parents=True)
+        self.root.rename(library / 'books' / 'test-book')
+        first = build_index(library, '2026-10-22T01:00:00Z')
+        (library / 'reader-index.json').write_text(json.dumps(first))
+        refreshed = build_index(library, '2026-10-23T01:00:00Z')
+        self.assertEqual(refreshed['books'][0]['addedAt'], '2026-10-22T01:00:00Z')
+        self.assertEqual(build_index(library), first)
 
     def test_hold_never_enters_catalog(self):
         self.rights["status"] = "hold"
