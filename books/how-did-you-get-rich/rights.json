@@ -1,5 +1,5 @@
 {
-  "id": "how-you-got-rich",
+  "id": "how-did-you-get-rich",
   "status": "ship",
   "edition": "multilingual",
   "langs": [
@@ -9,13 +9,13 @@
   ],
   "basis": "Author-owned V3 original book and reviewed Japanese and Chinese editions, supplied by the owner for Bunko.",
   "references": [
-    "https://github.com/lachlanchen/HowYouGotRich/tree/main/multilingual/entries"
+    "https://github.com/lachlanchen/HowDidYouGetRich/tree/main/multilingual/entries"
   ],
   "checked": "2026-09-25",
   "cover": {
     "textFree": false,
     "originalDesign": true,
     "basis": "Author project cover artwork, adapted from the published source edition.",
-    "sourceAsset": "HowYouGotRich/assets/cover-page-1.png"
+    "sourceAsset": "HowDidYouGetRich/assets/cover-page-1.png"
   }
 }
