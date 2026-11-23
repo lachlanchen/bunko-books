@@ -40,6 +40,46 @@ def line_valid(line):
                                   (len(token) < 3 or token[2] in set("spoadctf"))) for token in line)
 
 
+def sentence_map(directory):
+    path = directory / "sentences-v1.json"
+    if not path.exists():
+        return None, {}
+    require(not path.is_symlink() and 0 < path.stat().st_size <= 32 * 1024**2, "Invalid sentence-map file")
+    raw = path.read_bytes()
+    value = json.loads(raw)
+    require(value.get("schema") == 1 and value.get("book") == directory.name and
+            isinstance(value.get("chapters"), dict), "Invalid sentence-map header")
+    return sha(raw), value["chapters"]
+
+
+def verify_sentences(entry, paragraphs, langs):
+    require(isinstance(entry, dict) and re.fullmatch(r"[a-f0-9]{64}", entry.get("chapterHash", "")) and
+            isinstance(entry.get("units"), dict), "Invalid sentence-map chapter")
+    for coordinate, layers in entry["units"].items():
+        require(re.fullmatch(r"(?:0|[1-9][0-9]{0,6})\.(?:0|[1-9][0-9]{0,6})", coordinate), "Invalid sentence-map coordinate")
+        paragraph, offset = map(int, coordinate.split("."))
+        require(paragraph < len(paragraphs) and offset < len(paragraphs[paragraph]["u"]), "Unknown sentence-map unit")
+        parent = paragraphs[paragraph]
+        unit = parent["u"][offset]
+        require(parent.get("kind", "text") == "text" and not parent.get("figure") and
+                not parent["id"].endswith("-notes") and not unit.get("rich") and not unit.get("annotation"), "Invalid sentence-map passage")
+        require(isinstance(layers, dict) and layers and set(layers) <= set(langs) & set(unit), "Invalid sentence-map language")
+        for lang, cuts in layers.items():
+            line = unit[lang]
+            length = 0
+            require(isinstance(cuts, list) and cuts and all(type(point) is int for point in cuts) and
+                    sorted(set(cuts)) == cuts and cuts[0] > 0, "Invalid sentence-map offsets")
+            index = 0
+            for token in line:
+                text = token if isinstance(token, str) else token[0]
+                end = length + len(text.encode("utf-16-le")) // 2
+                while index < len(cuts) and cuts[index] <= end:
+                    require(cuts[index] == end or isinstance(token, str) or len(token) == 1 or not token[1], "Sentence-map cut divides ruby")
+                    index += 1
+                length = end
+            require(cuts[-1] < length, "Sentence-map offset outside text")
+
+
 def book_row(directory):
     slug = directory.name
     require(SLUG.fullmatch(slug), "Invalid book id")
@@ -58,6 +98,8 @@ def book_row(directory):
     require(set(langs) == set(rights.get("langs", [])), f"{slug}: languages exceed clearance")
     require(meta.get("primary") in langs and meta.get("titleText", {}).get(meta["primary"]), f"{slug}: missing title/primary")
     require(meta.get("chapters"), f"{slug}: no chapters")
+    sentence_hash, sentences = sentence_map(directory)
+    require(set(sentences) <= {row["file"] for row in meta["chapters"]}, f"{slug}: unknown sentence-map chapter")
     total_bytes, total_paras, files = 0, 0, set()
     for row in meta["chapters"]:
         name = row.get("file", "")
@@ -90,6 +132,8 @@ def book_row(directory):
                         isinstance(part, list) and all(isinstance(item, dict) and
                         ("text" in item or "math" in item) for item in part)
                         for part in unit["rich"].values()), f"{slug}/{name}: invalid rich text")
+        if name in sentences:
+            verify_sentences(sentences[name], paragraphs, langs)
         total_bytes += len(data)
         total_paras += len(paragraphs)
     require(total_bytes == meta.get("bytes") and total_paras == meta.get("paras"), f"{slug}: totals mismatch")
@@ -98,6 +142,8 @@ def book_row(directory):
            "chapters": len(meta["chapters"]), "paras": total_paras, "bytes": total_bytes + len(raw),
            "sha256": sha(raw), "cat": meta.get("cat", "chinese" if "wenyan" in langs else "world"),
            "edition": meta.get("edition", "multilingual")}
+    if sentence_hash:
+        row["sentenceSha256"] = sentence_hash
     if meta.get("cover"):
         name = meta["cover"]
         require(COVER.fullmatch(name), f"{slug}: invalid cover path")

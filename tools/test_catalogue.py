@@ -3,7 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from catalogue import book_row, build_index
+from catalogue import book_row, build_index, sha
 
 
 class PublicationGate(unittest.TestCase):
@@ -90,6 +90,20 @@ class PublicationGate(unittest.TestCase):
         self.meta["chapters"][0]["sha256"] = "not-the-checksum"
         self.write()
         with self.assertRaisesRegex(ValueError, "checksum"):
+            book_row(self.root)
+
+    def test_sentence_map_pins_data_and_rejects_cuts_through_ruby(self):
+        self.chapter["p"][0]["u"][0]["wenyan"] = [["大道", "dà dào"], "。下。"]
+        self.write()
+        target = self.root / "sentences-v1.json"
+        entry = {"wenyan": [3]}
+        payload = {"schema": 1, "book": "test-book", "chapters": {
+            "c0001.json": {"chapterHash": "a" * 64, "units": {"0.0": entry}}}}
+        target.write_text(json.dumps(payload))
+        self.assertEqual(book_row(self.root)["sentenceSha256"], sha(target.read_bytes()))
+        entry["wenyan"] = [1]
+        target.write_text(json.dumps(payload))
+        with self.assertRaisesRegex(ValueError, "divides ruby"):
             book_row(self.root)
 
 
