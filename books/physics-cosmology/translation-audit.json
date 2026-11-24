@@ -8,7 +8,10 @@
     "es",
     "de",
     "vi",
-    "ru"
+    "ru",
+    "fr",
+    "zh-Hant",
+    "ko"
   ],
   "mathExpressionsChecked": 4575,
   "chapters": [
@@ -95,12 +98,18 @@
     "es": "e08d93b1e7866643b3bd9f8cba9e47fcd6a415adbbaf2b0bd8b2f2e01acf99f2",
     "de": "e82911084d80c11308e9257e37a54f2cace38b06bc2af12c13e61c0e999cf3b6",
     "vi": "7052fd545b5c378f602038c9d983c52c4df8e31ffff6b34393e8927765ad3c52",
-    "ru": "aaf38957b81f82fb2096ce1b35f1e560b8822ce2f4da4fbeea7544c0524bfd28"
+    "ru": "aaf38957b81f82fb2096ce1b35f1e560b8822ce2f4da4fbeea7544c0524bfd28",
+    "fr": "9ccefeaf73e489f4969dc55e12fb72ccbd16ac296834d353b57098b52bbd6c20",
+    "zh-Hant": "b2abeebb84e68b9b66c7a029cbcc6e8c4561a50b31dbcc2d58611b16013cb130",
+    "ko": "3671075907f1e237b992d80191309e0a031e640d49534e7669f5ec7418035363"
   },
   "layerSourceCommits": {
     "es": "3d71d79114e2f43af9a21daa52bc0434c3790a4a",
     "de": "3d71d79114e2f43af9a21daa52bc0434c3790a4a",
     "vi": "3d71d79114e2f43af9a21daa52bc0434c3790a4a",
-    "ru": "3d71d79114e2f43af9a21daa52bc0434c3790a4a"
+    "ru": "3d71d79114e2f43af9a21daa52bc0434c3790a4a",
+    "fr": "3d71d79114e2f43af9a21daa52bc0434c3790a4a",
+    "zh-Hant": "3d71d79114e2f43af9a21daa52bc0434c3790a4a",
+    "ko": "3d71d79114e2f43af9a21daa52bc0434c3790a4a"
   }
 }
