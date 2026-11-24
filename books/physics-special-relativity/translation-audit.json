@@ -4,7 +4,14 @@
   "languages": [
     "en",
     "ja",
-    "zh"
+    "zh",
+    "fr",
+    "es",
+    "de",
+    "zh-Hant",
+    "ko",
+    "vi",
+    "ru"
   ],
   "mathExpressionsChecked": 5040,
   "chapters": [
@@ -86,5 +93,23 @@
   "translationQuality": {
     "ja": "28b14873c610c1453d508e7741b9505c2ded3340afd80000875e604738b7814f",
     "zh": "b8b162378d39ddd0987f79c6c9a9cf1210cfa3841e5e1de36685fb58c6480f44"
+  },
+  "additionalLayers": {
+    "fr": "34b663840277192f1f2279b1c64b184f07fe9dacc6b8dfe0431f576e2654be63",
+    "es": "fd85bf02c16486785ba21d23aff305e9b48e8867f99899b281d67ae19375c3a5",
+    "de": "e9b833935af063773df6874d005bcde304b5a65274f2f52b48db2e08ac27cae7",
+    "zh-Hant": "69492add2359c29b2dff304edd40449d98a6cddbc99234feef2c2c82df0c7bbc",
+    "ko": "d77c879ef0d4a7e0e78691c98679fbb74538981f361ca7b307efc2bc7b1b24fa",
+    "vi": "0677588829909f486453a07e54b97b37f9b2afc58d9a56681fcdac8605290bd7",
+    "ru": "52cca4a159c721b428a45f0d9fb16fb86f5f138efbdeb0385e3c20b41db89d39"
+  },
+  "layerSourceCommits": {
+    "fr": "3d71d79114e2f43af9a21daa52bc0434c3790a4a",
+    "es": "3d71d79114e2f43af9a21daa52bc0434c3790a4a",
+    "de": "3d71d79114e2f43af9a21daa52bc0434c3790a4a",
+    "zh-Hant": "3d71d79114e2f43af9a21daa52bc0434c3790a4a",
+    "ko": "3d71d79114e2f43af9a21daa52bc0434c3790a4a",
+    "vi": "3d71d79114e2f43af9a21daa52bc0434c3790a4a",
+    "ru": "3d71d79114e2f43af9a21daa52bc0434c3790a4a"
   }
 }

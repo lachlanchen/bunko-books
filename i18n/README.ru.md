@@ -5,9 +5,9 @@
 # Bunko Books
 
 <!-- polished-physics:start -->
-Шестнадцать отредактированных пособий по физике теперь содержат выровненные тексты на **English, 日本語 и 中文**. Сохранены формулы, таблицы, рисунки и вводные абзацы. Выберите языки в Bunko: главы обновляются без переустановки. Это издания сообщества с помощью ИИ, не переводы, одобренные лектором.
+Шестнадцать пособий к лекциям Леонарда Сасскинда по физике. Доступные языки указаны в каждой книге.
 
-[English · 日本語 · 中文](https://github.com/lachlanchen/leonardsusskind#read-in-english-japanese-and-chinese)
+[Читать в Bunko](https://lachlan.lazying.art/Bunko/) · [PDF по языкам](https://github.com/lachlanchen/leonardsusskind#pdf-editions)
 <!-- polished-physics:end -->
 
 *Открытая загружаемая библиотека для Bunko.*

@@ -5,9 +5,9 @@
 # Bunko Books
 
 <!-- polished-physics:start -->
-تضم ستة عشر كتاباً مساعداً منقحاً في الفيزياء نصوصاً متقابلة باللغات **English و日本語 و中文**، مع حفظ المعادلات والجداول والرسوم والمقدمات. اختر اللغات في Bunko لتنزيل الفصول المحدثة دون إعادة تثبيت التطبيق. هذه طبعات مجتمعية بمساعدة الذكاء الاصطناعي، وليست ترجمات معتمدة من المحاضر.
+ستة عشر كتاباً مرافقاً لمحاضرات ليونارد ساسكيند في الفيزياء. تجد اللغات المتاحة عند فتح كل كتاب.
 
-[English · 日本語 · 中文](https://github.com/lachlanchen/leonardsusskind#read-in-english-japanese-and-chinese)
+[اقرأ في Bunko](https://lachlan.lazying.art/Bunko/) · [نزّل ملفات PDF حسب اللغة](https://github.com/lachlanchen/leonardsusskind#pdf-editions)
 <!-- polished-physics:end -->
 
 *المكتبة المفتوحة القابلة للتنزيل خلف Bunko.*

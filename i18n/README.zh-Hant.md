@@ -5,9 +5,9 @@
 # Bunko Books
 
 <!-- polished-physics:start -->
-16冊最終潤色的物理講義輔助書現已提供對齊的**English、日本語和中文**。保留公式、表格、圖版及導入段落。在Bunko中選擇語言即可下載更新後的章節，無需重新安裝應用。這些是AI輔助製作的社群版本，並非原講師認可的譯本。
+16 冊倫納德·薩斯坎德物理講座配套筆記。開啟各書即可查看可讀語言。
 
-[English · 日本語 · 中文](https://github.com/lachlanchen/leonardsusskind#read-in-english-japanese-and-chinese)
+[在 Bunko 閱讀](https://lachlan.lazying.art/Bunko/) · [依語言下載 PDF](https://github.com/lachlanchen/leonardsusskind#pdf-editions)
 <!-- polished-physics:end -->
 
 *支撐 Bunko 的開放、可下載古典書庫。*
