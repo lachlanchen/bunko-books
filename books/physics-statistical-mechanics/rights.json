@@ -11,14 +11,15 @@
     "zh-Hant",
     "ru",
     "fr",
-    "ko"
+    "ko",
+    "vi"
   ],
   "basis": "Independent edited AI-assisted companion notes by the owner, adapted from public lectures; not a transcript, Susskind manuscript or endorsed edition. Original source repo is GPL-3.0; preserve attribution and GPL terms. Additional aligned layers use published, AI-assisted translations of the same source. Equations and original figures are retained.",
   "references": [
     "https://github.com/lachlanchen/leonardsusskind/tree/main/generated_course_notes/core/statistical_mechanics/2013_spring_theoretical_minimum",
     "https://github.com/lachlanchen/leonardsusskind/tree/main/translations/core--statistical_mechanics--2013_spring_theoretical_minimum"
   ],
-  "checked": "2026-11-24",
+  "checked": "2026-11-25",
   "cover": {
     "textFree": false,
     "originalDesign": true,
